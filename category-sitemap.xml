@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- このサイトマップは、2025年5月28日の9:48 PMに、WordPress 用のオリジナル SEO プラグイン All in One SEO v4.4.6により動的生成されました。 -->
+<!-- このサイトマップは、2025年6月1日の10:14 PMに、WordPress 用のオリジナル SEO プラグイン All in One SEO v4.4.6により動的生成されました。 -->
 
-<?xml-stylesheet type="text/xsl" href="/my-website//default-sitemap.xsl?sitemap=category"?>
+<?xml-stylesheet type="text/xsl" href="/BK//default-sitemap.xsl?sitemap=category"?>
 <urlset
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:xhtml="http://www.w3.org/1999/xhtml"
 	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
 >
 	<url>
-		<loc><![CDATA[/my-website//category/%e3%83%a1%e3%82%a4%e3%83%b3%e8%a8%98%e4%ba%8b/]]></loc>
-		<lastmod><![CDATA[2025-05-06T02:57:52+00:00]]></lastmod>
+		<loc><![CDATA[/BK//category/%e3%83%a1%e3%82%a4%e3%83%b3%e8%a8%98%e4%ba%8b/]]></loc>
+		<lastmod><![CDATA[2025-05-31T12:24:23+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/my-website//category/%e7%97%87%e7%8a%b6%e5%88%a5%e8%a8%98%e4%ba%8b/]]></loc>
+		<loc><![CDATA[/BK//category/%e7%97%87%e7%8a%b6%e5%88%a5%e8%a8%98%e4%ba%8b/]]></loc>
 		<lastmod><![CDATA[2025-03-09T01:37:23+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/my-website//category/%e5%85%8b%e6%9c%8d%e9%81%8e%e7%a8%8b%e3%81%ae%e8%a8%98%e4%ba%8b/]]></loc>
+		<loc><![CDATA[/BK//category/%e5%85%8b%e6%9c%8d%e9%81%8e%e7%a8%8b%e3%81%ae%e8%a8%98%e4%ba%8b/]]></loc>
 		<lastmod><![CDATA[2025-05-11T13:07:53+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/my-website//category/%e8%a3%9c%e5%8a%a9%e3%82%b0%e3%83%83%e3%82%ba%e3%81%ae%e8%a8%98%e4%ba%8b/]]></loc>
+		<loc><![CDATA[/BK//category/%e8%a3%9c%e5%8a%a9%e3%82%b0%e3%83%83%e3%82%ba%e3%81%ae%e8%a8%98%e4%ba%8b/]]></loc>
 		<lastmod><![CDATA[2024-10-19T14:54:58+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/my-website//category/%e9%96%a2%e9%80%a3%e8%a8%98%e4%ba%8b/]]></loc>
+		<loc><![CDATA[/BK//category/%e9%96%a2%e9%80%a3%e8%a8%98%e4%ba%8b/]]></loc>
 		<lastmod><![CDATA[2025-03-09T16:31:08+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/my-website//category/%e3%81%9d%e3%81%ae%e4%bb%96%e8%a8%98%e4%ba%8b/]]></loc>
+		<loc><![CDATA[/BK//category/%e3%81%9d%e3%81%ae%e4%bb%96%e8%a8%98%e4%ba%8b/]]></loc>
 		<lastmod><![CDATA[2023-05-21T02:15:38+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- このサイトマップは、2025年5月28日の9:48 PMに、WordPress 用のオリジナル SEO プラグイン All in One SEO v4.4.6により動的生成されました。 -->
+<!-- このサイトマップは、2025年6月1日の10:14 PMに、WordPress 用のオリジナル SEO プラグイン All in One SEO v4.4.6により動的生成されました。 -->
 
-<?xml-stylesheet type="text/xsl" href="/my-website//default-sitemap.xsl?sitemap=root"?>
+<?xml-stylesheet type="text/xsl" href="/BK//default-sitemap.xsl?sitemap=root"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc><![CDATA[/my-website//addl-sitemap.xml]]></loc>
-		<lastmod><![CDATA[2025-05-11T13:07:53+00:00]]></lastmod>
+		<loc><![CDATA[/BK//addl-sitemap.xml]]></loc>
+		<lastmod><![CDATA[2025-05-31T12:24:23+00:00]]></lastmod>
 	</sitemap>
 	<sitemap>
-		<loc><![CDATA[/my-website//post-sitemap.xml]]></loc>
-		<lastmod><![CDATA[2025-05-11T13:07:53+00:00]]></lastmod>
+		<loc><![CDATA[/BK//post-sitemap.xml]]></loc>
+		<lastmod><![CDATA[2025-05-31T12:24:23+00:00]]></lastmod>
 	</sitemap>
 	<sitemap>
-		<loc><![CDATA[/my-website//category-sitemap.xml]]></loc>
-		<lastmod><![CDATA[2025-05-11T13:07:53+00:00]]></lastmod>
+		<loc><![CDATA[/BK//category-sitemap.xml]]></loc>
+		<lastmod><![CDATA[2025-05-31T12:24:23+00:00]]></lastmod>
 	</sitemap>
 </sitemapindex>
