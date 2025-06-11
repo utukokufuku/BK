@@ -351,9 +351,18 @@
 
 	<div id="content-head">
 		<h1><xsl:value-of select="$title"/></h1>
-		<p>生成:  <a href="https://aioseo.com/?utm_source=WordPress&#038;utm_campaign=liteplugin&#038;utm_medium=xml-sitemap" target="_blank">All in One SEO</a>, これはXMLサイトマップで、GoogleやBingなどの検索エンジンによって使用されることを意図しています。</p>
-		<p>
-			XML サイトマップの詳細については <a href="https://www.sitemaps.org/" target="_blank" rel="noreferrer noopener">sitemaps.org</a> をご覧ください。		</p>
+		<xsl:choose>
+			<xsl:when test="$fileType='RSS'">
+				<p>生成:  <a href="https://aioseo.com/?utm_source=WordPress&#038;utm_campaign=liteplugin&#038;utm_medium=xml-sitemap" target="_blank" rel="noreferrer noopener">All in One SEO</a>, これは RSS サイトマップで、Google や Bing などの検索エンジンによって使用されることを意図しています。</p>
+				<p>
+					RSS サイトマップの詳細については、<a href="https://www.sitemaps.org/" target="_blank" rel="noreferrer noopener">sitemaps.org</a> をご覧ください。				</p>
+			</xsl:when>
+			<xsl:otherwise>
+				<p>生成:  <a href="https://aioseo.com/?utm_source=WordPress&#038;utm_campaign=liteplugin&#038;utm_medium=xml-sitemap" target="_blank" rel="noreferrer noopener">All in One SEO</a>, これはXMLサイトマップで、GoogleやBingなどの検索エンジンによって使用されることを意図しています。</p>
+				<p>
+					XML サイトマップの詳細については <a href="https://www.sitemaps.org/" target="_blank" rel="noreferrer noopener">sitemaps.org</a> をご覧ください。				</p>
+			</xsl:otherwise>
+		</xsl:choose>
 		<xsl:if test="$amountOfURLs &gt; 0">
 			<p>
 				<xsl:choose>
@@ -376,7 +385,7 @@
 						</xsl:choose>
 					</xsl:otherwise>
 				</xsl:choose>
-				2025年6月2日の11:18 PMに生成されました			</p>
+				2025年6月11日の10:39 PMに生成されました			</p>
 		</xsl:if>
 	</div>
 </xsl:template>

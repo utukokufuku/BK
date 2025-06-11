@@ -629,8 +629,11 @@ width: 26.85em !important;
     display: none !important;
 }
 
-.is-active {
-    display: block !important;
+li.no-match .is-active {
+  display: block !important;
+}
+.font_select_menu .is-active {
+  display: block !important;
 }
 
 .w_fontlist {
@@ -834,7 +837,7 @@ input[type=checkbox].switch__input {
 .block_wrap {
   display: block !important;
 }
-table, tbody, tr, th, td {
+#customeFontThemeForm table, #customeFontThemeForm tbody, #customeFontThemeForm tr, #customeFontThemeForm th, #customeFontThemeForm td {
   display: block;
   width: 100%;
 }
@@ -842,7 +845,7 @@ table, tbody, tr, th, td {
 .b__font_target_form{
   width: 100%;
 }
-.b__font_target_form table, tbody, tr, th, td {
+.b__font_target_form table, .b__font_target_form tbody, .b__font_target_form tr, .b__font_target_form th, .b__font_target_form td {
   display: table-row;
 }
 .b__font_target_form thead tr {

@@ -2,8 +2,8 @@
 Contributors: xserverjp
 Tags: fonts,Webfonts
 Requires at least: 5.2
-Tested up to: 6.2.2
-Stable tag: 2.0.4
+Tested up to: 6.7.1
+Stable tag: 2.0.8
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -125,6 +125,18 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 　　https://www.wpx.ne.jp/support/faq/
 
 == Changelog ==
+= 2.0.8 =
+* 既知の脆弱性に対応
+
+= 2.0.7 =
+* 軽微な修正
+
+= 2.0.6 =
+* 軽微な修正
+
+= 2.0.5 =
+* 軽微な修正
+
 = 2.0.4 =
 * UI改善対応
 * PHP8.0対応

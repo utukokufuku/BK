@@ -45,11 +45,11 @@
 							bg = bgWebP;
 						}
 					}
-					var dPR = (window.devicePixelRatio || 1);
+					var dPR = getdPR();
 					var targetWidth  = Math.round(e.target.offsetWidth * dPR);
 					var targetHeight = Math.round(e.target.offsetHeight * dPR);
 					if ( 0 === bg.search(/\[/) ) {
-					} else if (!shouldAutoScale(e.target)||!shouldAutoScale(e.target.parentNode)){
+					} else if (!shouldAutoScale(e.target)){
 					} else if (lazySizes.hC(e.target,'wp-block-cover')) {
 						console.log('found wp-block-cover with data-back');
 						if (lazySizes.hC(e.target,'has-parallax')) {
@@ -122,18 +122,26 @@
 			console.log('autoscale disabled globally');
 			return false;
 		}
-		if (target.hasAttributes()) {
-			var attrs = target.attributes
-			var regNoScale = /skip-autoscale/;
-			for (var i = attrs.length - 1; i >= 0; i--) {
-				if (regNoScale.test(attrs[i].name)) {
-					console.log('autoscale disabled by attr');
-					return false;
+		var currentNode = target;
+		for (var i = 0; i <= 7; i++) {
+			if (currentNode.hasAttributes()) {
+				var attrs = currentNode.attributes
+				var regNoScale = /skip-autoscale/;
+				for (var i = attrs.length - 1; i >= 0; i--) {
+					if (regNoScale.test(attrs[i].name)) {
+						console.log('autoscale disabled by attr');
+						return false;
+					}
+					if (regNoScale.test(attrs[i].value)) {
+						console.log('autoscale disabled by attr value');
+						return false;
+					}
 				}
-				if (regNoScale.test(attrs[i].value)) {
-					console.log('autoscale disabled by attr value');
-					return false;
-				}
+			}
+			if (currentNode.parentNode && currentNode.parentNode.nodeType === 1 && currentNode.parentNode.hasAttributes) {
+				currentNode = currentNode.parentNode;
+			} else {
+				break;
 			}
 		}
 		return true;
@@ -359,7 +367,7 @@
 	}
 
 	var updateImgElem = function(target,upScale=false){
-		var dPR = (window.devicePixelRatio || 1);
+		var dPR = getdPR();
 		var targetWidth = Math.round(target.offsetWidth * dPR);
 		var targetHeight = Math.round(target.offsetHeight * dPR);
 
@@ -369,7 +377,7 @@
 			console.log('using data-src-webp');
 			src = webpsrc;
 		}
-		if (!shouldAutoScale(target)||!shouldAutoScale(target.parentNode)){
+		if (!shouldAutoScale(target)){
 			return;
 		}
 		var imgType = getImgType(target);
@@ -382,6 +390,13 @@
 			target.setAttribute('data-src', newSrc);
 		}
 	};
+
+	var getdPR = function() {
+		if (eio_lazy_vars.use_dpr && window.devicePixelRatio > 1) {
+			return window.devicePixelRatio;
+		}
+		return 1;
+	}
 
 	document.addEventListener('lazybeforesizes', function(e){
 		var src = e.target.getAttribute('data-src');
@@ -415,7 +430,7 @@
 			if ((target.naturalWidth > 1) && (target.naturalHeight > 1)) {
 	        	// For each image with a natural width which isn't
 	        	// a 1x1 image, check its size.
-				var dPR = (window.devicePixelRatio || 1);
+	        	var dPR = getdPR();
 				var physicalWidth = target.naturalWidth;
 				var physicalHeight = target.naturalHeight;
 				var realDims = getRealDimensionsFromImg(target);
@@ -490,7 +505,7 @@
 				lazySizes.autoSizer.checkElems();
 			}
 		}
-		var dPR = (window.devicePixelRatio || 1);
+		var dPR = getdPR();
 		var autosizedElems = document.getElementsByClassName(lazySizes.cfg.loadedClass);
 		var i;
 		var len = autosizedElems.length;

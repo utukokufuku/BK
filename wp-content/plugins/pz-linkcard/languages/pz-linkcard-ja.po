@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pz-LinkCard\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2023-09-18 16:38+0900\n"
-"PO-Revision-Date: 2023-09-18 16:38+0900\n"
+"POT-Creation-Date: 2025-02-26 12:40+0900\n"
+"PO-Revision-Date: 2025-02-26 12:44+0900\n"
 "Last-Translator: poporon@popozure <poporon@poponet.jp>\n"
 "Language-Team: poporon\n"
 "Language: ja_JP\n"
@@ -13,498 +13,570 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:13
+#: ../lib/pz-linkcard-cacheman-edit.php:4
 msgid "&#x1f4dd;&#xfe0f;"
 msgstr "&#x1f4dd;&#xfe0f;"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:13
+#: ../lib/pz-linkcard-cacheman-edit.php:4
 msgid "Cache Editor"
 msgstr "キャッシュエディター"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:17
-#: ../lib/pz-linkcard-cacheman-edit.php:171
+#: ../lib/pz-linkcard-cacheman-edit.php:9
+#: ../lib/pz-linkcard-cacheman-edit.php:167
 msgid "Update"
 msgstr "更新"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:17
-#: ../lib/pz-linkcard-cacheman-edit.php:171
+#: ../lib/pz-linkcard-cacheman-edit.php:11
+#: ../lib/pz-linkcard-cacheman-edit.php:169
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:20
-#: ../lib/pz-linkcard-cacheman-list.php:234
+#: ../lib/pz-linkcard-cacheman-edit.php:15
+#: ../lib/pz-linkcard-cacheman-list.php:6
+#: ../lib/pz-linkcard-cacheman-list.php:256
 msgid "ID"
 msgstr "ID"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:24
-#: ../lib/pz-linkcard-cacheman-list.php:237 ../lib/pz-linkcard-settings.php:650
-#: ../lib/pz-linkcard-settings.php:1054 ../pz-linkcard.php:437
+#: ../lib/pz-linkcard-cacheman-edit.php:19
+#: ../lib/pz-linkcard-cacheman-list.php:7
+#: ../lib/pz-linkcard-cacheman-list.php:262
+#: ../lib/pz-linkcard-settings-letter.php:24
+#: ../lib/pz-linkcard-settings-multisite.php:62 ../pz-linkcard.php:605
 msgid "URL"
 msgstr "URL"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:28
+#: ../lib/pz-linkcard-cacheman-edit.php:23
 msgid "Redirect URL"
 msgstr "相対指定URL"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:32
+#: ../lib/pz-linkcard-cacheman-edit.php:27
 msgid "URL Key"
 msgstr "URLキー"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:36
+#: ../lib/pz-linkcard-cacheman-edit.php:31
 msgid "Scheme"
 msgstr "スキーム"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:40 ../lib/pz-linkcard-settings.php:1053
+#: ../lib/pz-linkcard-cacheman-edit.php:35
+#: ../lib/pz-linkcard-settings-multisite.php:61
 msgid "Site Name"
 msgstr "サイト名称"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:44
-#: ../lib/pz-linkcard-cacheman-list.php:249
-#: ../lib/pz-linkcard-settings.php:1055
+#: ../lib/pz-linkcard-cacheman-edit.php:39
+#: ../lib/pz-linkcard-cacheman-list.php:11
+#: ../lib/pz-linkcard-cacheman-list.php:286
+#: ../lib/pz-linkcard-settings-multisite.php:63
 msgid "Domain"
 msgstr "ドメイン"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:52
+#: ../lib/pz-linkcard-cacheman-edit.php:47
 msgid "Registration Title"
 msgstr "登録時のタイトル"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:56
-#: ../lib/pz-linkcard-cacheman-list.php:240 ../lib/pz-linkcard-settings.php:649
+#: ../lib/pz-linkcard-cacheman-edit.php:51
+#: ../lib/pz-linkcard-cacheman-list.php:8
+#: ../lib/pz-linkcard-cacheman-list.php:268
+#: ../lib/pz-linkcard-settings-letter.php:22
 msgid "Title"
 msgstr "タイトル"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:60
+#: ../lib/pz-linkcard-cacheman-edit.php:55
 msgid "Modify Title"
 msgstr "タイトルの変更"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:64
+#: ../lib/pz-linkcard-cacheman-edit.php:59
 msgid "Registration Excerpt"
 msgstr "登録時の抜粋文"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:68
-#: ../lib/pz-linkcard-cacheman-list.php:243 ../lib/pz-linkcard-settings.php:651
+#: ../lib/pz-linkcard-cacheman-edit.php:63
+#: ../lib/pz-linkcard-cacheman-list.php:9
+#: ../lib/pz-linkcard-cacheman-list.php:274
+#: ../lib/pz-linkcard-settings-letter.php:23
 msgid "Excerpt"
 msgstr "抜粋文"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:72
+#: ../lib/pz-linkcard-cacheman-edit.php:67
 msgid "Modify Excerpt"
 msgstr "抜粋文の変更"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:76
+#: ../lib/pz-linkcard-cacheman-edit.php:71
 msgid "Character Set"
 msgstr "文字セット"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:77
+#: ../lib/pz-linkcard-cacheman-edit.php:72
 msgid "->"
-msgstr "->"
+msgstr "→"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:80
+#: ../lib/pz-linkcard-cacheman-edit.php:75
 msgid "Thumbnail URL"
 msgstr "サムネイル画像URL"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:84
+#: ../lib/pz-linkcard-cacheman-edit.php:79
 msgid "Favicon URL"
-msgstr "サイトアイコンのURL"
+msgstr "サイトアイコンURL"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:88
+#: ../lib/pz-linkcard-cacheman-edit.php:83
 msgid "Result Code"
 msgstr "結果コード"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:95
+#: ../lib/pz-linkcard-cacheman-edit.php:90
 msgid "No Failure"
 msgstr "エラーを無視"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:97
+#: ../lib/pz-linkcard-cacheman-edit.php:92
 msgid "The result code is inaccessible but can actually be accessed."
 msgstr "結果コードはエラーでも、アクセス可能とする。"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:101
-#: ../lib/pz-linkcard-cacheman-list.php:267
+#: ../lib/pz-linkcard-cacheman-edit.php:96
+#: ../lib/pz-linkcard-cacheman-list.php:22
+#: ../lib/pz-linkcard-cacheman-list.php:348
+#: ../lib/pz-linkcard-settings-error.php:9
 msgid "Post ID"
 msgstr "記事ID"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:112
+#: ../lib/pz-linkcard-cacheman-edit.php:107
 msgid "SNS"
 msgstr "SNS"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:114
-#: ../lib/pz-linkcard-cacheman-list.php:252
+#: ../lib/pz-linkcard-cacheman-edit.php:109
+#: ../lib/pz-linkcard-cacheman-list.php:13
+#: ../lib/pz-linkcard-cacheman-list.php:292
 msgid "Tw"
-msgstr "Tw"
+msgstr "𝕏"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:115
-#: ../lib/pz-linkcard-cacheman-list.php:252
+#: ../lib/pz-linkcard-cacheman-edit.php:110
+#: ../lib/pz-linkcard-cacheman-list.php:14
+#: ../lib/pz-linkcard-cacheman-list.php:300
 msgid "fb"
 msgstr "fb"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:116
-#: ../lib/pz-linkcard-cacheman-list.php:252
+#: ../lib/pz-linkcard-cacheman-edit.php:111
+#: ../lib/pz-linkcard-cacheman-list.php:15
+#: ../lib/pz-linkcard-cacheman-list.php:308
 msgid "B!"
 msgstr "B!"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:117
-#: ../lib/pz-linkcard-cacheman-list.php:252
+#: ../lib/pz-linkcard-cacheman-edit.php:112
+#: ../lib/pz-linkcard-cacheman-list.php:16
+#: ../lib/pz-linkcard-cacheman-list.php:316
 msgid "Po"
 msgstr "Po"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:121
+#: ../lib/pz-linkcard-cacheman-edit.php:116
 msgid "Last SNS Check"
 msgstr "前回のSNS確認日時"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:125
+#: ../lib/pz-linkcard-cacheman-edit.php:120
 msgid "Next SNS Check"
 msgstr "次回のSNS確認日時"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:129
+#: ../lib/pz-linkcard-cacheman-edit.php:124
 msgid "Registration Character Set"
 msgstr "登録時の文字セット"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:133
-#: ../lib/pz-linkcard-cacheman-edit.php:137
+#: ../lib/pz-linkcard-cacheman-edit.php:128
+#: ../lib/pz-linkcard-cacheman-edit.php:132
 msgid "Registration Date"
 msgstr "登録をした日時"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:141
+#: ../lib/pz-linkcard-cacheman-edit.php:136
 msgid "Registration Result Code"
 msgstr "登録時の結果コード"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:148
+#: ../lib/pz-linkcard-cacheman-edit.php:143
 msgid "Last Alive Check"
 msgstr "前回のリンク切れ確認日時"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:152
+#: ../lib/pz-linkcard-cacheman-edit.php:147
 msgid "Next Alive Check"
 msgstr "次回のリンク切れ確認日時"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:156
+#: ../lib/pz-linkcard-cacheman-edit.php:151
 msgid "Result Code of Alive Check"
 msgstr "リンク切れ確認時の結果コード"
 
-#: ../lib/pz-linkcard-cacheman-edit.php:163
-#: ../lib/pz-linkcard-cacheman-edit.php:167
+#: ../lib/pz-linkcard-cacheman-edit.php:158
+#: ../lib/pz-linkcard-cacheman-edit.php:162
 msgid "Update Date"
 msgstr "更新日"
 
-#: ../lib/pz-linkcard-cacheman-list.php:149
-#: ../lib/pz-linkcard-settings-admin.php:98
-msgid "▼"
-msgstr "▼▾"
-
-#: ../lib/pz-linkcard-cacheman-list.php:150
-msgid "▲"
-msgstr "▲▴"
-
-#: ../lib/pz-linkcard-cacheman-list.php:159
-msgid "All"
-msgstr "すべて"
-
-#: ../lib/pz-linkcard-cacheman-list.php:160
-msgid "Internal"
-msgstr "内部"
-
-#: ../lib/pz-linkcard-cacheman-list.php:161
-msgid "External"
-msgstr "外部"
-
-#: ../lib/pz-linkcard-cacheman-list.php:162
-msgid "Modify"
-msgstr "更新あり"
-
-#: ../lib/pz-linkcard-cacheman-list.php:163
-msgid "Unlink"
-msgstr "リンク切れ"
-
-#: ../lib/pz-linkcard-cacheman-list.php:168
-msgid "Text search by title and excerpt"
-msgstr "タイトルと概要文からテキスト検索します"
-
-#: ../lib/pz-linkcard-cacheman-list.php:169
-msgid "&#x1f50d;&#xfe0f;"
-msgstr "&#x1f50d;&#xfe0f;"
-
-#: ../lib/pz-linkcard-cacheman-list.php:171
-msgid "Search"
-msgstr "検索"
-
-#: ../lib/pz-linkcard-cacheman-list.php:178
-msgid "Select"
-msgstr "選択してください"
-
-#: ../lib/pz-linkcard-cacheman-list.php:179 ../lib/pz-linkcard-cacheman.php:77
-msgid "Renew Cache"
-msgstr "記事内容の再取得"
-
-#: ../lib/pz-linkcard-cacheman-list.php:180 ../lib/pz-linkcard-cacheman.php:161
-msgid "Renew Thumbnail Image"
-msgstr "サムネイル画像を再取得する"
-
-#: ../lib/pz-linkcard-cacheman-list.php:181 ../lib/pz-linkcard-cacheman.php:140
-msgid "Renew SNS Count"
-msgstr "ソーシャルカウントを再取得する"
-
-#: ../lib/pz-linkcard-cacheman-list.php:182
-msgid "Renew Post ID"
-msgstr "記事IDの再取得"
-
-#: ../lib/pz-linkcard-cacheman-list.php:183
-msgid "Check Status"
-msgstr "状態の確認"
-
-#: ../lib/pz-linkcard-cacheman-list.php:184
-msgid "Delete from Cache"
-msgstr "キャッシュから削除する"
-
-#: ../lib/pz-linkcard-cacheman-list.php:186
-msgid "Submit"
-msgstr "適用"
-
-#: ../lib/pz-linkcard-cacheman-list.php:192
-msgid "All Domain"
-msgstr "すべてのドメイン"
-
-#: ../lib/pz-linkcard-cacheman-list.php:203
-msgid "Refine Search"
-msgstr "絞り込み検索"
-
-#: ../lib/pz-linkcard-cacheman-list.php:207
-#: ../lib/pz-linkcard-cacheman-list.php:428
-#, php-format
-msgid "%d item"
-msgstr "%d個の項目"
-
-#: ../lib/pz-linkcard-cacheman-list.php:207
-#: ../lib/pz-linkcard-cacheman-list.php:428
-#, php-format
-msgid "%d items"
-msgstr "%d個の項目"
-
-#: ../lib/pz-linkcard-cacheman-list.php:246
+#: ../lib/pz-linkcard-cacheman-list.php:10
+#: ../lib/pz-linkcard-cacheman-list.php:280
 msgid "Charset"
 msgstr "文字ｾｯﾄ"
 
-#: ../lib/pz-linkcard-cacheman-list.php:255
-msgid "Regist<br>date"
-msgstr "登録日"
+#: ../lib/pz-linkcard-cacheman-list.php:18
+#: ../lib/pz-linkcard-cacheman-list.php:324
+msgid "Regist<br/>Date"
+msgstr "登録日時"
 
-#: ../lib/pz-linkcard-cacheman-list.php:258
-msgid "Update<br>date"
-msgstr "更新日"
+#: ../lib/pz-linkcard-cacheman-list.php:19
+#: ../lib/pz-linkcard-cacheman-list.php:330
+msgid "Update<br/>Date"
+msgstr "更新日時"
 
-#: ../lib/pz-linkcard-cacheman-list.php:261
-msgid "SNS<br>check<br>date"
-msgstr "SNS<br>取得日"
+#: ../lib/pz-linkcard-cacheman-list.php:20
+#: ../lib/pz-linkcard-cacheman-list.php:336
+msgid "SNS<br/>Check<br/>Date"
+msgstr "シェア数<br/>取得日時"
 
-#: ../lib/pz-linkcard-cacheman-list.php:264
-msgid "Alive<br>check<br>date"
-msgstr "状態<br>確認日"
+#: ../lib/pz-linkcard-cacheman-list.php:21
+#: ../lib/pz-linkcard-cacheman-list.php:342
+msgid "Alive<br/>Check<br/>Date"
+msgstr "状態<br/>確認日"
 
-#: ../lib/pz-linkcard-cacheman-list.php:270
+#: ../lib/pz-linkcard-cacheman-list.php:24
+msgid "Result<br/>Code"
+msgstr "結果<br/>コード"
+
+#: ../lib/pz-linkcard-cacheman-list.php:25
+#: ../lib/pz-linkcard-cacheman-list.php:362
+msgid "(Last)"
+msgstr "(最新)"
+
+#: ../lib/pz-linkcard-cacheman-list.php:175
+#: ../lib/pz-linkcard-cacheman-list.php:534
+#, php-format
+msgid "%s item"
+msgstr "%s個の項目"
+
+#: ../lib/pz-linkcard-cacheman-list.php:175
+#: ../lib/pz-linkcard-cacheman-list.php:534
+#, php-format
+msgid "%s items"
+msgstr "%s個の項目"
+
+#: ../lib/pz-linkcard-cacheman-list.php:176
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: ../lib/pz-linkcard-cacheman-list.php:177
+msgid "&lsaquo;"
+msgstr "&lsaquo;"
+
+#: ../lib/pz-linkcard-cacheman-list.php:180
+msgid "&rsaquo;"
+msgstr "&rsaquo;"
+
+#: ../lib/pz-linkcard-cacheman-list.php:181
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: ../lib/pz-linkcard-cacheman-list.php:188
+msgid "All"
+msgstr "すべて"
+
+#: ../lib/pz-linkcard-cacheman-list.php:189
+msgid "Internal"
+msgstr "内部"
+
+#: ../lib/pz-linkcard-cacheman-list.php:190
+msgid "External"
+msgstr "外部"
+
+#: ../lib/pz-linkcard-cacheman-list.php:191
+msgid "Modify"
+msgstr "更新あり"
+
+#: ../lib/pz-linkcard-cacheman-list.php:192
+msgid "Unlink"
+msgstr "リンク切れ"
+
+#: ../lib/pz-linkcard-cacheman-list.php:204
+msgid "Text search by title and excerpt"
+msgstr "タイトルと抜粋文からテキスト検索します"
+
+#: ../lib/pz-linkcard-cacheman-list.php:206
+msgid "&#x1f50d;&#xfe0f;"
+msgstr "&#x1f50d;&#xfe0f;"
+
+#: ../lib/pz-linkcard-cacheman-list.php:208
+msgid "Search"
+msgstr "検索"
+
+#: ../lib/pz-linkcard-cacheman-list.php:216
+msgid "Bulk Actions"
+msgstr "一括操作"
+
+#: ../lib/pz-linkcard-cacheman-list.php:217 ../lib/pz-linkcard-cacheman.php:215
+msgid "Renew Cache"
+msgstr "記事内容の再取得"
+
+#: ../lib/pz-linkcard-cacheman-list.php:218 ../lib/pz-linkcard-cacheman.php:237
+msgid "Renew Thumbnail Image"
+msgstr "サムネイル画像を再取得する"
+
+#: ../lib/pz-linkcard-cacheman-list.php:219 ../lib/pz-linkcard-cacheman.php:258
+msgid "Renew SNS Count"
+msgstr "ソーシャルカウントを再取得する"
+
+#: ../lib/pz-linkcard-cacheman-list.php:220
+msgid "Renew Post ID"
+msgstr "記事IDの再取得"
+
+#: ../lib/pz-linkcard-cacheman-list.php:221
+msgid "Check Status"
+msgstr "状態の確認"
+
+#: ../lib/pz-linkcard-cacheman-list.php:222
+msgid "Delete from Cache"
+msgstr "キャッシュから削除する"
+
+#: ../lib/pz-linkcard-cacheman-list.php:224
+msgid "Apply"
+msgstr "適用"
+
+#: ../lib/pz-linkcard-cacheman-list.php:230
+msgid "All Domain"
+msgstr "すべてのドメイン"
+
+#: ../lib/pz-linkcard-cacheman-list.php:241
+msgid "Refine Search"
+msgstr "絞り込み検索"
+
+#: ../lib/pz-linkcard-cacheman-list.php:252
+msgid "&#x1f53c;&#xfe0f;"
+msgstr "&#x1f53c;&#xfe0f;"
+
+#: ../lib/pz-linkcard-cacheman-list.php:253
+msgid "&#x1f53d;&#xfe0f;"
+msgstr "&#x1f53d;&#xfe0f;"
+
+#: ../lib/pz-linkcard-cacheman-list.php:354
 msgid "Result<br>code"
-msgstr "結果<br>コード"
+msgstr "結果<br/>コード"
 
-#: ../lib/pz-linkcard-cacheman-list.php:270
-msgid "(last )"
-msgstr "(直近)"
-
-#: ../lib/pz-linkcard-cacheman-list.php:301
-msgid "The latest HTTP code is in error, but ignore it."
-msgstr "HTTP結果コードがエラーだが、無視する。"
-
-#: ../lib/pz-linkcard-cacheman-list.php:301
+#: ../lib/pz-linkcard-cacheman-list.php:398
 msgid "&#x26a0;&#xfe0f;"
 msgstr "&#x26a0;&#xfe0f;"
 
-#: ../lib/pz-linkcard-cacheman-list.php:303
+#: ../lib/pz-linkcard-cacheman-list.php:400
+msgid "The latest HTTP code is in error, but ignore it."
+msgstr "HTTP結果コードがエラーの場合でもリンクを有効にする。"
+
+#: ../lib/pz-linkcard-cacheman-list.php:402
+msgid "&#x26d4;&#xfe0f;"
+msgstr "&#x26d4;&#xfe0f;"
+
+#: ../lib/pz-linkcard-cacheman-list.php:404
 msgid ""
 "The latest HTTP code is in error. You can change it to ignore the error from "
 "the edit screen."
 msgstr "HTTP結果コードがエラー。編集画面から無視するように設定できます。"
 
-#: ../lib/pz-linkcard-cacheman-list.php:303
-msgid "&#x26d4;&#xfe0f;"
-msgstr "&#x26d4;&#xfe0f;"
-
-#: ../lib/pz-linkcard-cacheman-list.php:385
+#: ../lib/pz-linkcard-cacheman-list.php:490
 msgid "Ignore"
 msgstr "無視"
 
-#: ../lib/pz-linkcard-cacheman-list.php:397
+#: ../lib/pz-linkcard-cacheman-list.php:502
 msgid "Edit"
 msgstr "編集"
 
-#: ../lib/pz-linkcard-cacheman-list.php:398
-#: ../lib/pz-linkcard-cacheman-list.php:399
-#: ../lib/pz-linkcard-settings-admin.php:52
-#: ../lib/pz-linkcard-settings.php:1234 ../lib/pz-linkcard-settings.php:1241
+#: ../lib/pz-linkcard-cacheman-list.php:503
+#: ../lib/pz-linkcard-cacheman-list.php:504
+#: ../lib/pz-linkcard-settings-admin.php:53
+#: ../lib/pz-linkcard-settings-admin.php:104
+#: ../lib/pz-linkcard-settings-initialize.php:9
 msgid "Are you sure?"
 msgstr "実行しますか？"
 
-#: ../lib/pz-linkcard-cacheman-list.php:398
+#: ../lib/pz-linkcard-cacheman-list.php:503
 msgid "Renew"
 msgstr "再取得"
 
-#: ../lib/pz-linkcard-cacheman-list.php:399
+#: ../lib/pz-linkcard-cacheman-list.php:504
 msgid "Delete"
 msgstr "削除"
 
-#: ../lib/pz-linkcard-cacheman.php:2 ../lib/pz-linkcard-settings.php:2
-#: ../lib/pz-linkcard-settings.php:1133
-msgid "Currently working in a development environment."
-msgstr "現在、開発環境で作業中です。"
-
-#: ../lib/pz-linkcard-cacheman.php:4 ../lib/pz-linkcard-settings.php:5
-msgid "&#x1f5c3;&#xfe0f;"
-msgstr "&#x1f5c3;&#xfe0f;"
-
-#: ../lib/pz-linkcard-cacheman.php:4 ../pz-linkcard.php:2379
-msgid "LinkCard Cache Manager"
-msgstr "リンクカード／DBキャッシュ管理"
-
-#: ../lib/pz-linkcard-cacheman.php:4 ../lib/pz-linkcard-settings.php:4
-#: ../lib/pz-linkcard-settings.php:113
-msgid "Help"
-msgstr "ヘルプ"
-
-#: ../lib/pz-linkcard-cacheman.php:5 ../lib/pz-linkcard-settings.php:4
-msgid "&#x2699;&#xfe0f;"
-msgstr "&#x2699;&#xfe0f;"
-
-#: ../lib/pz-linkcard-cacheman.php:5 ../pz-linkcard.php:2398
-msgid "Settings"
-msgstr "設定"
-
-#: ../lib/pz-linkcard-cacheman.php:64 ../lib/pz-linkcard-cacheman.php:83
-#: ../lib/pz-linkcard-cacheman.php:100 ../lib/pz-linkcard-cacheman.php:126
-#: ../lib/pz-linkcard-cacheman.php:146 ../lib/pz-linkcard-cacheman.php:167
-#: ../lib/pz-linkcard-cacheman.php:188
-msgid "Not selected"
-msgstr "選択されていません"
-
-#: ../lib/pz-linkcard-cacheman.php:77 ../lib/pz-linkcard-cacheman.php:94
-#: ../lib/pz-linkcard-cacheman.php:120 ../lib/pz-linkcard-cacheman.php:140
-#: ../lib/pz-linkcard-cacheman.php:161 ../lib/pz-linkcard-cacheman.php:182
-#: ../lib/pz-linkcard-cacheman.php:217
-msgid "..."
-msgstr "..."
-
-#: ../lib/pz-linkcard-cacheman.php:77 ../lib/pz-linkcard-cacheman.php:94
-#: ../lib/pz-linkcard-cacheman.php:120 ../lib/pz-linkcard-cacheman.php:140
-#: ../lib/pz-linkcard-cacheman.php:161 ../lib/pz-linkcard-cacheman.php:182
-#: ../lib/pz-linkcard-cacheman.php:217 ../lib/pz-linkcard-file-import.php:11
-#: ../lib/pz-linkcard-file-import.php:54 ../lib/pz-linkcard-file-import.php:61
-#: ../lib/pz-linkcard-file-import.php:100
-#: ../lib/pz-linkcard-file-import.php:102 ../lib/pz-linkcard-settings.php:245
-#: ../lib/pz-linkcard-settings.php:1150 ../lib/pz-linkcard-settings.php:1211
-#: ../lib/pz-linkcard-settings.php:1220 ../pz-linkcard.php:1626
-#: ../pz-linkcard.php:1643
-msgid "("
-msgstr "（"
-
-#: ../lib/pz-linkcard-cacheman.php:77 ../lib/pz-linkcard-cacheman.php:94
-#: ../lib/pz-linkcard-cacheman.php:120 ../lib/pz-linkcard-cacheman.php:140
-#: ../lib/pz-linkcard-cacheman.php:161 ../lib/pz-linkcard-cacheman.php:182
-#: ../lib/pz-linkcard-cacheman.php:217 ../lib/pz-linkcard-file-import.php:100
-msgid "Success:"
-msgstr "成功："
-
-#: ../lib/pz-linkcard-cacheman.php:77 ../lib/pz-linkcard-cacheman.php:94
-#: ../lib/pz-linkcard-cacheman.php:120 ../lib/pz-linkcard-cacheman.php:140
-#: ../lib/pz-linkcard-cacheman.php:161 ../lib/pz-linkcard-cacheman.php:182
-#: ../lib/pz-linkcard-cacheman.php:217 ../lib/pz-linkcard-file-import.php:100
-#: ../lib/pz-linkcard-file-import.php:102
-msgid "Skip:"
-msgstr "スキップ："
-
-#: ../lib/pz-linkcard-cacheman.php:77 ../lib/pz-linkcard-cacheman.php:94
-#: ../lib/pz-linkcard-cacheman.php:120 ../lib/pz-linkcard-cacheman.php:140
-#: ../lib/pz-linkcard-cacheman.php:161 ../lib/pz-linkcard-cacheman.php:182
-#: ../lib/pz-linkcard-cacheman.php:217 ../lib/pz-linkcard-file-import.php:11
-#: ../lib/pz-linkcard-file-import.php:54 ../lib/pz-linkcard-file-import.php:61
-#: ../lib/pz-linkcard-file-import.php:100
-#: ../lib/pz-linkcard-file-import.php:102 ../lib/pz-linkcard-settings.php:245
-#: ../lib/pz-linkcard-settings.php:1150 ../lib/pz-linkcard-settings.php:1211
-#: ../lib/pz-linkcard-settings.php:1220 ../pz-linkcard.php:1626
-#: ../pz-linkcard.php:1643
-msgid ")"
-msgstr "）"
-
-#: ../lib/pz-linkcard-cacheman.php:94
-msgid "Delete Cache"
-msgstr "キャッシュ削除"
-
-#: ../lib/pz-linkcard-cacheman.php:120
-msgid "Update Cache"
-msgstr "キャッシュを更新しました"
-
-#: ../lib/pz-linkcard-cacheman.php:182
-msgid "Renew Post Id"
-msgstr "記事IDの再取得"
-
-#: ../lib/pz-linkcard-cacheman.php:217
-msgid "Alive check"
-msgstr "リンク先のチェック"
-
-#: ../lib/pz-linkcard-cacheman.php:227
-msgid "Upload Import File"
-msgstr "インポートするファイルをアップロード"
-
-#: ../lib/pz-linkcard-cacheman.php:228
-msgid "Clear all cache"
-msgstr "すべてのキャッシュを消去"
-
-#: ../lib/pz-linkcard-cacheman.php:251
+#: ../lib/pz-linkcard-cacheman-list.php:534
 msgid "&#x1f4c4;&#xfe0f;"
 msgstr "&#x1f4c4;&#xfe0f;"
 
-#: ../lib/pz-linkcard-cacheman.php:251 ../lib/pz-linkcard-settings.php:1116
+#: ../lib/pz-linkcard-cacheman-list.php:534
+#: ../lib/pz-linkcard-settings-advanced.php:111
 msgid "File Menu"
 msgstr "ファイルメニュー"
 
-#: ../lib/pz-linkcard-cacheman.php:258
-msgid "Import"
-msgstr "インポート"
+#: ../lib/pz-linkcard-cacheman-list.php:534
+msgid "Import From Local File"
+msgstr "ファイルからインポートする"
 
-#: ../lib/pz-linkcard-cacheman.php:266
-msgid "Export"
-msgstr "エクスポート"
+#: ../lib/pz-linkcard-cacheman-list.php:534
+msgid "Export To Local File"
+msgstr "ファイルへエクスポートする"
+
+#: ../lib/pz-linkcard-cacheman.php:95
+#: ../lib/pz-linkcard-settings-advanced.php:131
+#: ../lib/pz-linkcard-settings.php:164
+msgid "Debug Mode"
+msgstr "デバッグ モード"
+
+#: ../lib/pz-linkcard-cacheman.php:96 ../lib/pz-linkcard-settings.php:166
+msgid "Develop Environment"
+msgstr "開発環境"
+
+#: ../lib/pz-linkcard-cacheman.php:97 ../lib/pz-linkcard-settings.php:167
+msgid "Product Environment"
+msgstr "本番環境"
+
+#: ../lib/pz-linkcard-cacheman.php:103 ../lib/pz-linkcard-settings.php:175
+msgid "&#x2699;&#xfe0f;"
+msgstr "&#x2699;&#xfe0f;"
+
+#: ../lib/pz-linkcard-cacheman.php:104 ../pz-linkcard.php:2810
+msgid "Settings"
+msgstr "設定"
+
+#: ../lib/pz-linkcard-cacheman.php:105 ../lib/pz-linkcard-settings.php:173
+msgid "&#x1f5c3;&#xfe0f;"
+msgstr "&#x1f5c3;&#xfe0f;"
+
+#: ../lib/pz-linkcard-cacheman.php:106 ../pz-linkcard.php:2673
+#: ../pz-linkcard.php:2682 ../pz-linkcard.php:2801
+msgid "Pz-LinkCard Manager"
+msgstr "Pz カード管理"
+
+#: ../lib/pz-linkcard-cacheman.php:108 ../lib/pz-linkcard-settings.php:178
+#: ../lib/pz-linkcard-settings.php:329
+msgid "Help"
+msgstr "ヘルプ"
+
+#: ../lib/pz-linkcard-cacheman.php:153 ../lib/pz-linkcard-settings.php:206
+msgid "Invalid URL parameter in "
+msgstr "URLパラメーターの指定が無効です→"
+
+#: ../lib/pz-linkcard-cacheman.php:153 ../lib/pz-linkcard-settings-basic.php:39
+#: ../lib/pz-linkcard-settings.php:206
+msgid "*"
+msgstr "※"
+
+#: ../lib/pz-linkcard-cacheman.php:153 ../lib/pz-linkcard-settings.php:206
+msgid ""
+"You can cancel this message from <a href=\"./options-general.php?page=pz-"
+"linkcard-settings\">the setting screen</a>."
+msgstr ""
+"このメッセージの表示は<a href=\"./options-general.php?page=pz-linkcard-"
+"settings\">設定画面</a>から解除できます。"
+
+#: ../lib/pz-linkcard-cacheman.php:183 ../lib/pz-linkcard-cacheman.php:202
+#: ../lib/pz-linkcard-cacheman.php:222 ../lib/pz-linkcard-cacheman.php:244
+#: ../lib/pz-linkcard-cacheman.php:265 ../lib/pz-linkcard-cacheman.php:287
+#: ../lib/pz-linkcard-cacheman.php:323
+msgid "Not selected"
+msgstr "選択されていません"
+
+#: ../lib/pz-linkcard-cacheman.php:195
+msgid "Update Cache"
+msgstr "キャッシュを更新しました"
+
+#: ../lib/pz-linkcard-cacheman.php:195 ../lib/pz-linkcard-cacheman.php:215
+#: ../lib/pz-linkcard-cacheman.php:237 ../lib/pz-linkcard-cacheman.php:258
+#: ../lib/pz-linkcard-cacheman.php:280 ../lib/pz-linkcard-cacheman.php:316
+#: ../lib/pz-linkcard-cacheman.php:334
+msgid "..."
+msgstr "..."
+
+#: ../lib/pz-linkcard-cacheman.php:195 ../lib/pz-linkcard-cacheman.php:215
+#: ../lib/pz-linkcard-cacheman.php:237 ../lib/pz-linkcard-cacheman.php:258
+#: ../lib/pz-linkcard-cacheman.php:280 ../lib/pz-linkcard-cacheman.php:316
+#: ../lib/pz-linkcard-cacheman.php:334 ../lib/pz-linkcard-file-import.php:9
+#: ../lib/pz-linkcard-file-import.php:52 ../lib/pz-linkcard-file-import.php:59
+#: ../lib/pz-linkcard-file-import.php:98 ../lib/pz-linkcard-file-import.php:100
+#: ../lib/pz-linkcard-settings-basic.php:62
+#: ../lib/pz-linkcard-settings-etc.php:8 ../lib/pz-linkcard-settings-etc.php:42
+#: ../lib/pz-linkcard-settings-etc.php:51 ../pz-linkcard.php:1940
+#: ../pz-linkcard.php:1957
+msgid "("
+msgstr "（"
+
+#: ../lib/pz-linkcard-cacheman.php:195 ../lib/pz-linkcard-cacheman.php:215
+#: ../lib/pz-linkcard-cacheman.php:237 ../lib/pz-linkcard-cacheman.php:258
+#: ../lib/pz-linkcard-cacheman.php:280 ../lib/pz-linkcard-cacheman.php:316
+#: ../lib/pz-linkcard-cacheman.php:334 ../lib/pz-linkcard-file-import.php:98
+msgid "Success:"
+msgstr "成功："
+
+#: ../lib/pz-linkcard-cacheman.php:195 ../lib/pz-linkcard-cacheman.php:215
+#: ../lib/pz-linkcard-cacheman.php:237 ../lib/pz-linkcard-cacheman.php:258
+#: ../lib/pz-linkcard-cacheman.php:280 ../lib/pz-linkcard-cacheman.php:316
+#: ../lib/pz-linkcard-cacheman.php:334 ../lib/pz-linkcard-file-import.php:98
+#: ../lib/pz-linkcard-file-import.php:100
+msgid "Skip:"
+msgstr "スキップ："
+
+#: ../lib/pz-linkcard-cacheman.php:195 ../lib/pz-linkcard-cacheman.php:215
+#: ../lib/pz-linkcard-cacheman.php:237 ../lib/pz-linkcard-cacheman.php:258
+#: ../lib/pz-linkcard-cacheman.php:280 ../lib/pz-linkcard-cacheman.php:316
+#: ../lib/pz-linkcard-cacheman.php:334 ../lib/pz-linkcard-file-import.php:9
+#: ../lib/pz-linkcard-file-import.php:52 ../lib/pz-linkcard-file-import.php:59
+#: ../lib/pz-linkcard-file-import.php:98 ../lib/pz-linkcard-file-import.php:100
+#: ../lib/pz-linkcard-settings-basic.php:62
+#: ../lib/pz-linkcard-settings-etc.php:8 ../lib/pz-linkcard-settings-etc.php:42
+#: ../lib/pz-linkcard-settings-etc.php:51 ../pz-linkcard.php:1940
+#: ../pz-linkcard.php:1957
+msgid ")"
+msgstr "）"
+
+#: ../lib/pz-linkcard-cacheman.php:280
+msgid "Renew Post Id"
+msgstr "記事IDの再取得"
+
+#: ../lib/pz-linkcard-cacheman.php:316
+msgid "Alive check"
+msgstr "リンク先のチェック"
+
+#: ../lib/pz-linkcard-cacheman.php:334
+msgid "Delete Cache"
+msgstr "キャッシュ削除"
+
+#: ../lib/pz-linkcard-cacheman.php:349
+msgid "Undefined process chosen."
+msgstr "未定義の処理を選択しました"
 
 #: ../lib/pz-linkcard-file-export.php:60
 msgid "Download Export File"
-msgstr "エクスポートされたファイルをダウンロード"
+msgstr "エクスポートファイルのダウンロード"
 
-#: ../lib/pz-linkcard-file-import.php:11 ../lib/pz-linkcard-file-import.php:54
-#: ../lib/pz-linkcard-file-import.php:61
+#: ../lib/pz-linkcard-file-import-menu.php:8
+msgid "Upload Import File"
+msgstr "インポートするファイルをアップロード"
+
+#: ../lib/pz-linkcard-file-import-menu.php:9
+msgid "Clear all cache"
+msgstr "すべてのキャッシュを消去"
+
+#: ../lib/pz-linkcard-file-import.php:9 ../lib/pz-linkcard-file-import.php:52
+#: ../lib/pz-linkcard-file-import.php:59
 msgid "DB Access Error."
 msgstr "データベースへのアクセスでエラーが発生しました。"
 
-#: ../lib/pz-linkcard-file-import.php:29
+#: ../lib/pz-linkcard-file-import.php:27
 msgid "Import File Not Found."
 msgstr "インポートファイルが見つかりません。"
 
-#: ../lib/pz-linkcard-file-import.php:36
+#: ../lib/pz-linkcard-file-import.php:34
 msgid "Import File Open Error."
 msgstr "インポートファイルが開けませんでした。"
 
-#: ../lib/pz-linkcard-file-import.php:42
+#: ../lib/pz-linkcard-file-import.php:40
 msgid "Import File Read Error."
 msgstr "インポートファイルが読み込めませんでした。"
 
-#: ../lib/pz-linkcard-file-import.php:100
+#: ../lib/pz-linkcard-file-import.php:98
 msgid "Import Successful."
 msgstr "インポートが成功しました。"
 
-#: ../lib/pz-linkcard-file-import.php:100
-#: ../lib/pz-linkcard-file-import.php:102
+#: ../lib/pz-linkcard-file-import.php:98 ../lib/pz-linkcard-file-import.php:100
 msgid "Read:"
 msgstr "読み込み："
 
-#: ../lib/pz-linkcard-file-import.php:102
+#: ../lib/pz-linkcard-file-import.php:100
 msgid "Import Failure."
 msgstr "インポートが失敗しました。"
 
@@ -520,1025 +592,166 @@ msgstr "リンクカードを作成するURLを入力してください"
 msgid "Insert"
 msgstr "挿入"
 
-#: ../lib/pz-linkcard-settings-admin.php:43
+#: ../lib/pz-linkcard-settings-admin.php:44
 msgid "Sec."
 msgstr "秒"
 
-#: ../lib/pz-linkcard-settings-admin.php:52
+#: ../lib/pz-linkcard-settings-admin.php:53
 msgid "Run Now"
 msgstr "今すぐ実行"
 
-#: ../lib/pz-linkcard-settings-admin.php:61
+#: ../lib/pz-linkcard-settings-admin.php:63
+msgid "Do not use normally as it can be set to incapacitate."
+msgstr "動作無能に陥る設定が可能なため、通常は使用しないでください。"
+
+#: ../lib/pz-linkcard-settings-admin.php:66
 msgid "Information"
 msgstr "情報"
 
-#: ../lib/pz-linkcard-settings-admin.php:64
-#: ../lib/pz-linkcard-settings.php:1036
+#: ../lib/pz-linkcard-settings-admin.php:69
+msgid "WordPress Version"
+msgstr "WordPressのバージョン"
+
+#: ../lib/pz-linkcard-settings-admin.php:73
+msgid "PHP Version"
+msgstr "PHPのバージョン"
+
+#: ../lib/pz-linkcard-settings-admin.php:77
+msgid "DBMS Version"
+msgstr "MySQLのバージョン"
+
+#: ../lib/pz-linkcard-settings-admin.php:81
+#: ../lib/pz-linkcard-settings-multisite.php:38
 msgid "Table Name"
 msgstr "テーブル名称"
 
-#: ../lib/pz-linkcard-settings-admin.php:68
-msgid "WordPress"
-msgstr "WordPress"
-
-#: ../lib/pz-linkcard-settings-admin.php:68
-#: ../lib/pz-linkcard-settings-admin.php:72
-#: ../lib/pz-linkcard-settings-admin.php:76 ../lib/pz-linkcard-settings.php:80
-msgid "Version"
-msgstr "バージョン"
-
-#: ../lib/pz-linkcard-settings-admin.php:72
-msgid "PHP"
-msgstr "PHP"
-
-#: ../lib/pz-linkcard-settings-admin.php:76
-msgid "DB"
-msgstr "DB"
-
-#: ../lib/pz-linkcard-settings-admin.php:82
-#: ../lib/pz-linkcard-settings-admin.php:84
-msgid "Execution Result"
-msgstr "実行結果"
-
-#: ../lib/pz-linkcard-settings-admin.php:91
-msgid "WP-Cron Information"
-msgstr "処理スケジュール情報"
-
-#: ../lib/pz-linkcard-settings-admin.php:92
-msgid "View all schedules."
-msgstr "すべてのスケジュールを表示する。"
-
-#: ../lib/pz-linkcard-settings-admin.php:96
-#: ../lib/pz-linkcard-settings.php:1234 ../lib/pz-linkcard-settings.php:1241
-msgid "Run"
-msgstr "実行"
-
-#: ../lib/pz-linkcard-settings-admin.php:97
-msgid "Hook"
-msgstr "フック（割込）"
-
-#: ../lib/pz-linkcard-settings-admin.php:98
-msgid "Next Time"
-msgstr "次回の日時"
-
-#: ../lib/pz-linkcard-settings-admin.php:99
-msgid "Schedule"
-msgstr "スケジュール"
-
-#: ../lib/pz-linkcard-settings.php:4 ../pz-linkcard.php:2380
-msgid "LinkCard Settings"
-msgstr "リンクカード設定"
-
-#: ../lib/pz-linkcard-settings.php:5
-msgid "Cache Manager"
-msgstr "DBキャッシュ管理"
-
-#: ../lib/pz-linkcard-settings.php:19
-msgid "Succeeded in initialize the settings."
-msgstr "設定を初期化しました。"
-
-#: ../lib/pz-linkcard-settings.php:21
-msgid "Failed to initialize the settings."
-msgstr "設定の初期化に失敗しました。"
-
-#: ../lib/pz-linkcard-settings.php:49
-msgid "Succeeded in saving the settings."
-msgstr "設定を更新しました。"
-
-#: ../lib/pz-linkcard-settings.php:52
-msgid "The settings have not changed."
-msgstr "設定は変更されていません。"
-
-#: ../lib/pz-linkcard-settings.php:132
-msgid "Error"
-msgstr "エラー"
-
-#: ../lib/pz-linkcard-settings.php:133
-msgid "Basic"
-msgstr "基本"
-
-#: ../lib/pz-linkcard-settings.php:134 ../lib/pz-linkcard-settings.php:496
-msgid "Position"
-msgstr "配置"
-
-#: ../lib/pz-linkcard-settings.php:135
-msgid "Display"
-msgstr "表示"
-
-#: ../lib/pz-linkcard-settings.php:136
-msgid "Letter"
-msgstr "文字"
-
-#: ../lib/pz-linkcard-settings.php:137
-msgid "External Link"
-msgstr "外部リンク"
-
-#: ../lib/pz-linkcard-settings.php:138
-msgid "Internal Link"
-msgstr "内部リンク"
-
-#: ../lib/pz-linkcard-settings.php:139
-msgid "Same Page Link"
-msgstr "同ページへのリンク"
-
-#: ../lib/pz-linkcard-settings.php:140
-msgid "Link Check"
-msgstr "リンク先の検査"
-
-#: ../lib/pz-linkcard-settings.php:141
-msgid "Editor"
-msgstr "エディター"
-
-#: ../lib/pz-linkcard-settings.php:142 ../lib/pz-linkcard-settings.php:1006
-msgid "Multi Site"
-msgstr "マルチサイト"
-
-#: ../lib/pz-linkcard-settings.php:143
-msgid "Admin"
-msgstr "管理者"
-
-#: ../lib/pz-linkcard-settings.php:144
-msgid "Advanced"
-msgstr "上級者向け"
-
-#: ../lib/pz-linkcard-settings.php:145
-msgid "etc."
-msgstr "その他"
-
-#: ../lib/pz-linkcard-settings.php:146 ../lib/pz-linkcard-settings.php:1229
-msgid "Initialize"
-msgstr "初期化"
-
-#: ../lib/pz-linkcard-settings.php:150
-msgid "Error Settings"
-msgstr "エラーの設定"
-
-#: ../lib/pz-linkcard-settings.php:153 ../lib/pz-linkcard-settings.php:160
-msgid "Error Reset"
-msgstr "エラーの解除"
-
-#: ../lib/pz-linkcard-settings.php:155
-msgid "Reset"
-msgstr "リセット"
-
-#: ../lib/pz-linkcard-settings.php:156
-msgid "Cancel the error condition."
-msgstr "エラー状態を解除します。"
-
-#: ../lib/pz-linkcard-settings.php:161
-msgid "Uncheck to cancel the error condition."
-msgstr "チェックを外すとエラー状態を解除します。"
-
-#: ../lib/pz-linkcard-settings.php:164 ../lib/pz-linkcard-settings.php:170
-msgid "Post URL"
-msgstr "記事URL"
-
-#: ../lib/pz-linkcard-settings.php:176
-msgid "Occurrence Time"
-msgstr "発生日時"
-
-#: ../lib/pz-linkcard-settings.php:186
-msgid "Basic Settings"
-msgstr "基本の設定"
-
-#: ../lib/pz-linkcard-settings.php:189
-msgid "Easy format"
-msgstr "かんたん書式設定"
-
-#: ../lib/pz-linkcard-settings.php:192 ../lib/pz-linkcard-settings.php:479
-#: ../lib/pz-linkcard-settings.php:498 ../lib/pz-linkcard-settings.php:531
-#: ../lib/pz-linkcard-settings.php:562 ../lib/pz-linkcard-settings.php:576
-#: ../lib/pz-linkcard-settings.php:592 ../lib/pz-linkcard-settings.php:613
-#: ../lib/pz-linkcard-settings.php:626 ../lib/pz-linkcard-settings.php:741
-#: ../lib/pz-linkcard-settings.php:787 ../lib/pz-linkcard-settings.php:830
-msgid "None"
-msgstr "なし"
-
-#: ../lib/pz-linkcard-settings.php:193
-msgid "Pz-LkC Default"
-msgstr "Pz リンクカード オリジナル"
-
-#: ../lib/pz-linkcard-settings.php:195
-msgid "Normal"
-msgstr "ノーマル（はてなブログカード風）"
-
-#: ../lib/pz-linkcard-settings.php:196
-msgid "Compact"
-msgstr "コンパクト"
-
-#: ../lib/pz-linkcard-settings.php:197
-msgid "Simple"
-msgstr "シンプル"
-
-#: ../lib/pz-linkcard-settings.php:198
-msgid "Headline"
-msgstr "見出し（付加情報のテキストが見出しとして表示されます）"
-
-#: ../lib/pz-linkcard-settings.php:200
-msgid "Cellophane tape \"center\""
-msgstr "セロハンテープ（中央）"
-
-#: ../lib/pz-linkcard-settings.php:201
-msgid "Cellophane tape \"Top corner\""
-msgstr "セロハンテープ（左上と右上）"
-
-#: ../lib/pz-linkcard-settings.php:202
-msgid "Cellophane tape \"long\""
-msgstr "セロハンテープ（長め）"
-
-#: ../lib/pz-linkcard-settings.php:203
-msgid "Cellophane tape \"digonal\""
-msgstr "セロハンテープ（斜め）"
-
-#: ../lib/pz-linkcard-settings.php:204
-msgid "Cellophane tape and curling"
-msgstr "セロハンテープと紙めくれた効果"
-
-#: ../lib/pz-linkcard-settings.php:205
-msgid "Curling paper"
-msgstr "紙がめくれた効果"
-
-#: ../lib/pz-linkcard-settings.php:207
-msgid "Stitch blue & red"
-msgstr "縫い目（青と赤）"
-
-#: ../lib/pz-linkcard-settings.php:208
-msgid "Stitch green & yellow"
-msgstr "縫い目（緑と黄色）"
-
-#: ../lib/pz-linkcard-settings.php:210
-msgid "Square"
-msgstr "スクエア"
-
-#: ../lib/pz-linkcard-settings.php:212
-msgid "Enclose"
-msgstr "囲み"
-
-#: ../lib/pz-linkcard-settings.php:213
-msgid "Reflection"
-msgstr "反射"
-
-#: ../lib/pz-linkcard-settings.php:215
-msgid "Infomation orange"
-msgstr "インフォメーション オレンジ"
-
-#: ../lib/pz-linkcard-settings.php:216
-msgid "Neutral bluegreen"
-msgstr "ニュートラル ブルーグリーン"
-
-#: ../lib/pz-linkcard-settings.php:217
-msgid "Enlightened green"
-msgstr "エンライテド グリーン"
-
-#: ../lib/pz-linkcard-settings.php:218
-msgid "Resistance blue"
-msgstr "レジスタンス ブルー"
-
-#: ../lib/pz-linkcard-settings.php:220
-msgid "Windows XP"
-msgstr "Windows XP 風"
-
-#: ../lib/pz-linkcard-settings.php:221
-msgid "Windows 95"
-msgstr "Windows 95 風"
-
-#: ../lib/pz-linkcard-settings.php:223
-msgid "Slanting"
-msgstr "斜め"
-
-#: ../lib/pz-linkcard-settings.php:225
-msgid "3D Rotate"
-msgstr "3D回転"
-
-#: ../lib/pz-linkcard-settings.php:226
-msgid "Pushpin"
-msgstr "押しピン"
-
-#: ../lib/pz-linkcard-settings.php:228 ../lib/pz-linkcard-settings.php:619
-#: ../lib/pz-linkcard-settings.php:1003 ../lib/pz-linkcard-settings.php:1046
-#: ../pz-linkcard.php:2349
-msgid "*"
-msgstr "※"
-
-#: ../lib/pz-linkcard-settings.php:228
-msgid "It applies over other formatting settings."
-msgstr "ほかの項目よりも優先して適用されます。"
-
-#: ../lib/pz-linkcard-settings.php:232
-msgid "Saved Datetime"
-msgstr "保存した日時"
-
-#: ../lib/pz-linkcard-settings.php:242
-msgid "Plugin Information"
-msgstr "プラグイン情報"
-
-#: ../lib/pz-linkcard-settings.php:245
-msgid "How to"
-msgstr "使い方"
-
-#: ../lib/pz-linkcard-settings.php:245
-msgid "Japanese Only"
-msgstr "日本語のみ"
-
-#: ../lib/pz-linkcard-settings.php:252 ../lib/pz-linkcard-settings.php:273
-msgid "Author's Site"
-msgstr "作者のサイト"
-
-#: ../lib/pz-linkcard-settings.php:253
-msgid "Popozure."
-msgstr "ぽぽづれ。"
-
-#: ../lib/pz-linkcard-settings.php:253
-msgid "Poporon's PC Daily Diary"
-msgstr "ぽぽろんのパソコンつれづれ（ズレズレ？）日記"
-
-#: ../lib/pz-linkcard-settings.php:256
-msgid "When in Trouble"
-msgstr "困ったときは"
-
-#: ../lib/pz-linkcard-settings.php:257
-msgid "Twitter Account"
-msgstr "ツイッター アカウント"
-
-#: ../lib/pz-linkcard-settings.php:261
-msgid "Plugin Name"
-msgstr "プラグイン名"
-
-#: ../lib/pz-linkcard-settings.php:265
-msgid "Plugin Abbreviation"
-msgstr "プラグイン略称"
-
-#: ../lib/pz-linkcard-settings.php:269
+#: ../lib/pz-linkcard-settings-admin.php:85
 msgid "Plugin Version"
 msgstr "プラグインバージョン"
 
-#: ../lib/pz-linkcard-settings.php:277
-msgid "Plugin Path"
-msgstr "プラグインのパス"
+#: ../lib/pz-linkcard-settings-admin.php:91
+msgid "Plugin DB Version"
+msgstr "テーブルバージョン"
+
+#: ../lib/pz-linkcard-settings-admin.php:99
+msgid "for Debug"
+msgstr "デバグ用"
+
+#: ../lib/pz-linkcard-settings-admin.php:102
+msgid "Reboot This Plugin"
+msgstr "プラグインの再起動"
+
+#: ../lib/pz-linkcard-settings-admin.php:104
+#: ../lib/pz-linkcard-settings-admin.php:167
+#: ../lib/pz-linkcard-settings-initialize.php:9
+msgid "Run"
+msgstr "実行"
+
+#: ../lib/pz-linkcard-settings-admin.php:105
+msgid "Perform initial setup."
+msgstr "プラグインの初期処理を実行します。"
+
+#: ../lib/pz-linkcard-settings-admin.php:105
+msgid "\"Settings\" will not be initialized."
+msgstr "設定値は初期化しません。"
+
+#: ../lib/pz-linkcard-settings-admin.php:109
+msgid "DB Update Mode"
+msgstr "DB更新モード"
+
+#: ../lib/pz-linkcard-settings-admin.php:114
+msgid "Forced access to links even if they are recorded in DB."
+msgstr "DBにキャッシュがあっても常にリンク先へアクセスして記事内容を取得する。"
+
+#: ../lib/pz-linkcard-settings-admin.php:121
+#: ../lib/pz-linkcard-settings-error.php:3
+msgid "Error Settings"
+msgstr "エラーの設定"
+
+#: ../lib/pz-linkcard-settings-admin.php:124
+msgid "Error Conditions"
+msgstr "エラー状態"
+
+#: ../lib/pz-linkcard-settings-admin.php:129
+msgid "Check to enable error conditions."
+msgstr "チェックを付けると記述エラーの状態になります。"
+
+#: ../lib/pz-linkcard-settings-admin.php:134
+#: ../lib/pz-linkcard-settings-error.php:15
+msgid "Post URL"
+msgstr "記事URL"
+
+#: ../lib/pz-linkcard-settings-admin.php:138
+#: ../lib/pz-linkcard-settings-error.php:21
+msgid "Occurrence Time"
+msgstr "発生日時"
+
+#: ../lib/pz-linkcard-settings-admin.php:148
+#: ../lib/pz-linkcard-settings-admin.php:150
+msgid "Execution Result"
+msgstr "実行結果"
+
+#: ../lib/pz-linkcard-settings-admin.php:157
+msgid "WP-Cron Information"
+msgstr "処理スケジュール情報"
+
+#: ../lib/pz-linkcard-settings-admin.php:161
+msgid "View all schedules."
+msgstr "すべてのスケジュールを表示する。"
+
+#: ../lib/pz-linkcard-settings-admin.php:168
+msgid "Hook"
+msgstr "フック（割込）"
+
+#: ../lib/pz-linkcard-settings-admin.php:169
+msgid "Next Time"
+msgstr "次回の日時"
+
+#: ../lib/pz-linkcard-settings-admin.php:169
+msgid "▼"
+msgstr "▼"
+
+#: ../lib/pz-linkcard-settings-admin.php:170
+msgid "Schedule"
+msgstr "スケジュール"
+
+#: ../lib/pz-linkcard-settings-advanced.php:5
+msgid "Senior Settings"
+msgstr "上級者向けの設定"
+
+#: ../lib/pz-linkcard-settings-advanced.php:11
+msgid "As it"
+msgstr "そのまま"
+
+#: ../lib/pz-linkcard-settings-advanced.php:12
+msgid "When only domain name, remove"
+msgstr "ドメイン名のみのときだけ削除"
+
+#: ../lib/pz-linkcard-settings-advanced.php:13
+msgid "Always remove"
+msgstr "常に削除"
 
-#: ../lib/pz-linkcard-settings.php:281
-msgid "Author Name"
-msgstr "作者の名前"
+#: ../lib/pz-linkcard-settings-advanced.php:15
+msgid "Trailing Slash"
+msgstr "末尾のスラッシュの除去"
 
-#: ../lib/pz-linkcard-settings.php:285
-msgid "Author Twitter"
-msgstr "作者のツイッター"
+#: ../lib/pz-linkcard-settings-advanced.php:19
+msgid "Class ID to be Added (for PC)"
+msgstr "PCのときに追加するクラス名"
 
-#: ../lib/pz-linkcard-settings.php:289
-msgid "Donation"
-msgstr "寄付"
+#: ../lib/pz-linkcard-settings-advanced.php:23
+msgid "Class ID to be Added (for Mobile)"
+msgstr "モバイルのときに追加するクラス名"
 
-#: ../lib/pz-linkcard-settings.php:290
-msgid "Wishlist"
-msgstr "ほしい物リスト"
+#: ../lib/pz-linkcard-settings-advanced.php:27
+msgid "Filter Priority"
+msgstr "フィルター優先度"
 
-#: ../lib/pz-linkcard-settings.php:295
-msgid "Changelog"
-msgstr "修正履歴"
-
-#: ../lib/pz-linkcard-settings.php:303
-msgid "Position Settings"
-msgstr "配置の設定"
-
-#: ../lib/pz-linkcard-settings.php:306
-msgid "Link the Whole"
-msgstr "カード全体をリンクする"
-
-#: ../lib/pz-linkcard-settings.php:310
-msgid "Enclose the entire card at anchor."
-msgstr ""
-"カード全体をAタグで囲って、どこをクリックしてもリンク先を開くようにします。"
-
-#: ../lib/pz-linkcard-settings.php:316
-msgid "Margin"
-msgstr "余白"
-
-#: ../lib/pz-linkcard-settings.php:323 ../lib/pz-linkcard-settings.php:355
-msgid "Margin top"
-msgstr "上の余白"
-
-#: ../lib/pz-linkcard-settings.php:325 ../lib/pz-linkcard-settings.php:341
-#: ../lib/pz-linkcard-settings.php:357 ../lib/pz-linkcard-settings.php:373
-#: ../lib/pz-linkcard-settings.php:387 ../lib/pz-linkcard-settings.php:409
-#: ../lib/pz-linkcard-settings.php:427 ../lib/pz-linkcard-settings.php:445
-msgid "Not defined"
-msgstr "設定しない"
-
-#: ../lib/pz-linkcard-settings.php:326 ../lib/pz-linkcard-settings.php:342
-#: ../lib/pz-linkcard-settings.php:358 ../lib/pz-linkcard-settings.php:374
-#: ../lib/pz-linkcard-settings.php:388 ../lib/pz-linkcard-settings.php:410
-#: ../lib/pz-linkcard-settings.php:428 ../lib/pz-linkcard-settings.php:446
-msgid "0"
-msgstr "0"
-
-#: ../lib/pz-linkcard-settings.php:327 ../lib/pz-linkcard-settings.php:343
-#: ../lib/pz-linkcard-settings.php:359 ../lib/pz-linkcard-settings.php:375
-#: ../lib/pz-linkcard-settings.php:389 ../lib/pz-linkcard-settings.php:411
-#: ../lib/pz-linkcard-settings.php:429 ../lib/pz-linkcard-settings.php:447
-#: ../lib/pz-linkcard-settings.php:563
-msgid "4px"
-msgstr "4px"
-
-#: ../lib/pz-linkcard-settings.php:328 ../lib/pz-linkcard-settings.php:344
-#: ../lib/pz-linkcard-settings.php:360 ../lib/pz-linkcard-settings.php:376
-#: ../lib/pz-linkcard-settings.php:390 ../lib/pz-linkcard-settings.php:412
-#: ../lib/pz-linkcard-settings.php:430 ../lib/pz-linkcard-settings.php:448
-#: ../lib/pz-linkcard-settings.php:564
-msgid "8px"
-msgstr "8px"
-
-#: ../lib/pz-linkcard-settings.php:329 ../lib/pz-linkcard-settings.php:345
-#: ../lib/pz-linkcard-settings.php:361 ../lib/pz-linkcard-settings.php:377
-#: ../lib/pz-linkcard-settings.php:391 ../lib/pz-linkcard-settings.php:413
-#: ../lib/pz-linkcard-settings.php:431 ../lib/pz-linkcard-settings.php:449
-#: ../lib/pz-linkcard-settings.php:565
-msgid "16px"
-msgstr "16px"
-
-#: ../lib/pz-linkcard-settings.php:330 ../lib/pz-linkcard-settings.php:346
-#: ../lib/pz-linkcard-settings.php:363 ../lib/pz-linkcard-settings.php:379
-#: ../lib/pz-linkcard-settings.php:393 ../lib/pz-linkcard-settings.php:415
-#: ../lib/pz-linkcard-settings.php:432 ../lib/pz-linkcard-settings.php:450
-#: ../lib/pz-linkcard-settings.php:566
-msgid "32px"
-msgstr "32px"
-
-#: ../lib/pz-linkcard-settings.php:331 ../lib/pz-linkcard-settings.php:347
-#: ../lib/pz-linkcard-settings.php:364 ../lib/pz-linkcard-settings.php:380
-#: ../lib/pz-linkcard-settings.php:394 ../lib/pz-linkcard-settings.php:416
-#: ../lib/pz-linkcard-settings.php:433 ../lib/pz-linkcard-settings.php:451
-msgid "40px"
-msgstr "40px"
-
-#: ../lib/pz-linkcard-settings.php:332 ../lib/pz-linkcard-settings.php:348
-#: ../lib/pz-linkcard-settings.php:365 ../lib/pz-linkcard-settings.php:381
-#: ../lib/pz-linkcard-settings.php:395 ../lib/pz-linkcard-settings.php:417
-#: ../lib/pz-linkcard-settings.php:434 ../lib/pz-linkcard-settings.php:452
-#: ../lib/pz-linkcard-settings.php:567
-msgid "64px"
-msgstr "64px"
-
-#: ../lib/pz-linkcard-settings.php:339 ../lib/pz-linkcard-settings.php:371
-msgid "Margin left"
-msgstr "左の余白"
-
-#: ../lib/pz-linkcard-settings.php:362 ../lib/pz-linkcard-settings.php:378
-#: ../lib/pz-linkcard-settings.php:392 ../lib/pz-linkcard-settings.php:414
-msgid "24px"
-msgstr "24px"
-
-#: ../lib/pz-linkcard-settings.php:385 ../lib/pz-linkcard-settings.php:425
-msgid "Margin right"
-msgstr "右の余白"
-
-#: ../lib/pz-linkcard-settings.php:401 ../lib/pz-linkcard-settings.php:506
-#: ../lib/pz-linkcard-settings.php:602
-msgid "Width"
-msgstr "幅"
-
-#: ../lib/pz-linkcard-settings.php:402 ../lib/pz-linkcard-settings.php:509
-#: ../lib/pz-linkcard-settings.php:680
-msgid "Height"
-msgstr "高さ"
-
-#: ../lib/pz-linkcard-settings.php:407 ../lib/pz-linkcard-settings.php:443
-msgid "Margin bottom"
-msgstr "下の余白"
-
-#: ../lib/pz-linkcard-settings.php:440
-msgid "Centering"
-msgstr "中央に寄せる"
-
-#: ../lib/pz-linkcard-settings.php:462
-msgid "Use Blockquote Tag"
-msgstr "BLOCKQUOTEタグを使用する"
-
-#: ../lib/pz-linkcard-settings.php:463
-msgid "Without using DIV tag, and use BLOCKQUOTE tag."
-msgstr "&lt;BLOCKQUOTE&gt;で囲んで引用扱いにします。"
-
-#: ../lib/pz-linkcard-settings.php:463 ../lib/pz-linkcard-settings.php:856
-#: ../lib/pz-linkcard-settings.php:864 ../lib/pz-linkcard-settings.php:1103
-#: ../lib/pz-linkcard-settings.php:1109 ../lib/pz-linkcard-settings.php:1125
-#: ../lib/pz-linkcard-settings.php:1129
-msgid "(Deprecated)"
-msgstr "（非推奨）"
-
-#: ../lib/pz-linkcard-settings.php:469
-msgid "Display Settings"
-msgstr "表示の設定"
-
-#: ../lib/pz-linkcard-settings.php:472
-msgid "Layout"
-msgstr "レイアウト"
-
-#: ../lib/pz-linkcard-settings.php:477 ../lib/pz-linkcard-settings.php:653
-msgid "Site Information"
-msgstr "サイト情報"
-
-#: ../lib/pz-linkcard-settings.php:480 ../lib/pz-linkcard-settings.php:501
-msgid "Upper Side"
-msgstr "上側"
-
-#: ../lib/pz-linkcard-settings.php:481
-msgid "Above the Title"
-msgstr "タイトルの上側"
-
-#: ../lib/pz-linkcard-settings.php:482
-msgid "Under Side"
-msgstr "下側"
-
-#: ../lib/pz-linkcard-settings.php:484
-msgid "Use SiteName"
-msgstr "サイト名称を使用"
-
-#: ../lib/pz-linkcard-settings.php:488
-msgid "For internal links, display the posting date"
-msgstr "内部リンクの場合に投稿日を表示する"
-
-#: ../lib/pz-linkcard-settings.php:492 ../lib/pz-linkcard-settings.php:733
-msgid "Thumbnail"
-msgstr "サムネイル"
-
-#: ../lib/pz-linkcard-settings.php:499
-msgid "Right Side"
-msgstr "右側"
-
-#: ../lib/pz-linkcard-settings.php:500
-msgid "Left Side"
-msgstr "左側"
-
-#: ../lib/pz-linkcard-settings.php:512 ../lib/pz-linkcard-settings.php:555
-msgid "Shadow"
-msgstr "影を付ける"
-
-#: ../lib/pz-linkcard-settings.php:518
-msgid "Make additional information heading display"
-msgstr "付加情報を見出し表示にする"
-
-#: ../lib/pz-linkcard-settings.php:521
-msgid "Turn off the anchor text underlining"
-msgstr "リンク文字のアンダーラインを除去する"
-
-#: ../lib/pz-linkcard-settings.php:524
-msgid "Separator line"
-msgstr "区切り線"
-
-#: ../lib/pz-linkcard-settings.php:529
-msgid "Display URL"
-msgstr "リンク先URLの表示"
-
-#: ../lib/pz-linkcard-settings.php:532
-msgid "Under Title"
-msgstr "タイトルの下側"
-
-#: ../lib/pz-linkcard-settings.php:533 ../lib/pz-linkcard-settings.php:628
-msgid "Bihind Site-Info"
-msgstr "サイト情報の後ろ"
-
-#: ../lib/pz-linkcard-settings.php:540
-msgid "Hollow content area"
-msgstr "記事の情報に枠を付ける"
-
-#: ../lib/pz-linkcard-settings.php:545
-msgid "Display excerpt"
-msgstr "抜粋文を表示する"
-
-#: ../lib/pz-linkcard-settings.php:550
-msgid "Hollow"
-msgstr "内側に影を付ける"
-
-#: ../lib/pz-linkcard-settings.php:560
-msgid "Round a square"
-msgstr "角を丸める"
-
-#: ../lib/pz-linkcard-settings.php:574
-msgid "When the mouse is on"
-msgstr "マウスが上に乗ったとき、"
-
-#: ../lib/pz-linkcard-settings.php:577
-msgid "Lighten"
-msgstr "薄色にする"
-
-#: ../lib/pz-linkcard-settings.php:578
-msgid "Hover (light)"
-msgstr "浮かせる（薄色）"
-
-#: ../lib/pz-linkcard-settings.php:579
-msgid "Hover (dark)"
-msgstr "浮かせる（濃色）"
-
-#: ../lib/pz-linkcard-settings.php:580
-msgid "Radius"
-msgstr "角を丸める"
-
-#: ../lib/pz-linkcard-settings.php:589
-msgid "Border"
-msgstr "枠線の太さ"
-
-#: ../lib/pz-linkcard-settings.php:593
-msgid "Solid"
-msgstr "Solid（実線）"
-
-#: ../lib/pz-linkcard-settings.php:594
-msgid "Dotted"
-msgstr "Dotted（点線）"
-
-#: ../lib/pz-linkcard-settings.php:595
-msgid "Dashed"
-msgstr "Dashed（破線）"
-
-#: ../lib/pz-linkcard-settings.php:596
-msgid "Double"
-msgstr "Double（二重線）"
-
-#: ../lib/pz-linkcard-settings.php:597
-msgid "Groove"
-msgstr "Groove（立体・へこみ）"
-
-#: ../lib/pz-linkcard-settings.php:598
-msgid "Ridge"
-msgstr "Ridge（立体・隆起）"
-
-#: ../lib/pz-linkcard-settings.php:599
-msgid "Inset"
-msgstr "Inset（立体・押されたボタンのような効果）"
-
-#: ../lib/pz-linkcard-settings.php:600
-msgid "Outset"
-msgstr "Outset（立体・ボタンのような効果）"
-
-#: ../lib/pz-linkcard-settings.php:606
-msgid "Reset Image Style"
-msgstr "画像のスタイルのリセット"
-
-#: ../lib/pz-linkcard-settings.php:607
-msgid ""
-"When unnecessary frame is displayed on the image, you can improve it by case"
-msgstr "画像がずれて表示されるときに改善される可能性が有ります（推奨）"
-
-#: ../lib/pz-linkcard-settings.php:610 ../lib/pz-linkcard-settings.php:652
-msgid "More Button"
-msgstr "続きを読むボタン"
-
-#: ../lib/pz-linkcard-settings.php:614
-msgid "Text link"
-msgstr "テキスト リンク"
-
-#: ../lib/pz-linkcard-settings.php:615
-msgid "Simple button"
-msgstr "シンプルなボタン"
-
-#: ../lib/pz-linkcard-settings.php:616
-msgid "Blue"
-msgstr "ブルー"
-
-#: ../lib/pz-linkcard-settings.php:617
-msgid "Dark"
-msgstr "ダーク"
-
-#: ../lib/pz-linkcard-settings.php:619
-msgid ""
-"It is recommended that you leave the card height blank when using this "
-"setting."
-msgstr "この設定を使用するときはカードの高さを空欄にすることをお勧めします。"
-
-#: ../lib/pz-linkcard-settings.php:623
-msgid "Display SNS Count"
-msgstr "シェア数を表示する"
-
-#: ../lib/pz-linkcard-settings.php:627
-msgid "Bihind Title"
-msgstr "タイトルの後ろ"
-
-#: ../lib/pz-linkcard-settings.php:632
-msgid "X (Twitter)"
-msgstr "X（旧ツイッター）"
-
-#: ../lib/pz-linkcard-settings.php:632 ../lib/pz-linkcard-settings.php:635
-msgid "* number is not updated"
-msgstr "※数字は更新されません。"
-
-#: ../lib/pz-linkcard-settings.php:633
-msgid "Change the unit of measure to \"tweets\"."
-msgstr "単位を「Post」では無く「Tweet」にする"
-
-#: ../lib/pz-linkcard-settings.php:635
-msgid "Facebook"
-msgstr "フェイスブック（シェア数）"
-
-#: ../lib/pz-linkcard-settings.php:636
-msgid "Hatena"
-msgstr "はてなブックマーク"
-
-#: ../lib/pz-linkcard-settings.php:637
-msgid "Pocket"
-msgstr "Pocket"
-
-#: ../lib/pz-linkcard-settings.php:645
-msgid "Letter Settings"
-msgstr "文字の設定"
-
-#: ../lib/pz-linkcard-settings.php:654 ../lib/pz-linkcard-settings.php:808
-msgid "Added Information"
-msgstr "付加情報"
-
-#: ../lib/pz-linkcard-settings.php:663
-msgid "Color"
-msgstr "色"
-
-#: ../lib/pz-linkcard-settings.php:670
-msgid "Outline"
-msgstr "縁取り"
-
-#: ../lib/pz-linkcard-settings.php:676
-msgid "Size"
-msgstr "大きさ"
-
-#: ../lib/pz-linkcard-settings.php:685
-msgid "Length"
-msgstr "桁数"
-
-#: ../lib/pz-linkcard-settings.php:689
-msgid "No wrap"
-msgstr "折り返さない"
-
-#: ../lib/pz-linkcard-settings.php:697
-msgid "Resize"
-msgstr "サイズの変更"
-
-#: ../lib/pz-linkcard-settings.php:698
-msgid "Adjust thumbnail and letter size according to width."
-msgstr "画面幅に合わせて文字とサムネイルの大きさを調整します。"
-
-#: ../lib/pz-linkcard-settings.php:705
-msgid "External Link Settings"
-msgstr "外部リンクの設定"
-
-#: ../lib/pz-linkcard-settings.php:706
-msgid "Internal Link Settings"
-msgstr "内部リンクの設定"
-
-#: ../lib/pz-linkcard-settings.php:707
-msgid "Same Page Link Settings"
-msgstr "同ページへのリンクの設定"
-
-#: ../lib/pz-linkcard-settings.php:715
-msgid "Border Color"
-msgstr "枠線の色"
-
-#: ../lib/pz-linkcard-settings.php:722
-msgid "Background Color"
-msgstr "背景色"
-
-#: ../lib/pz-linkcard-settings.php:729
-msgid "Background Image"
-msgstr "背景画像"
-
-#: ../lib/pz-linkcard-settings.php:737 ../lib/pz-linkcard-settings.php:754
-#: ../lib/pz-linkcard-settings.php:771 ../lib/pz-linkcard-settings.php:783
-#: ../lib/pz-linkcard-settings.php:800 ../lib/pz-linkcard-settings.php:815
-#: ../lib/pz-linkcard-settings.php:826 ../lib/pz-linkcard-settings.php:842
-#: ../lib/pz-linkcard-settings.php:872
-msgid "It is common with setting Internal-link"
-msgstr "内部リンク用の設定が使用されます"
-
-#: ../lib/pz-linkcard-settings.php:742 ../lib/pz-linkcard-settings.php:788
-msgid "Direct"
-msgstr "直接取得する"
-
-#: ../lib/pz-linkcard-settings.php:743 ../lib/pz-linkcard-settings.php:789
-msgid "Use WebAPI"
-msgstr "WebAPIを利用する"
-
-#: ../lib/pz-linkcard-settings.php:744 ../lib/pz-linkcard-settings.php:790
-msgid "Use WebAPI ,if can not direct"
-msgstr "直接取得できない場合、WebAPIを利用する"
-
-#: ../lib/pz-linkcard-settings.php:750
-msgid "Thumbnail Size"
-msgstr "サムネイルの大きさ"
-
-#: ../lib/pz-linkcard-settings.php:758
-msgid "Thumbnail (150px)"
-msgstr "小サイズ（150ピクセル）"
-
-#: ../lib/pz-linkcard-settings.php:759
-msgid "Medium (300px)"
-msgstr "中サイズ（300ピクセル）"
-
-#: ../lib/pz-linkcard-settings.php:760
-msgid "Large (1024px)"
-msgstr "大サイズ（1024ピクセル）"
-
-#: ../lib/pz-linkcard-settings.php:761
-msgid "Full size"
-msgstr "そのままのサイズ"
-
-#: ../lib/pz-linkcard-settings.php:768
-msgid "Thubnail Alt Text"
-msgstr "サムネイルの代替テキスト"
-
-#: ../lib/pz-linkcard-settings.php:779
-msgid "Site Icon"
-msgstr "サイトアイコン"
-
-#: ../lib/pz-linkcard-settings.php:797
-msgid "Site Icon Alt Text"
-msgstr "サイトアイコンの代替テキスト"
-
-#: ../lib/pz-linkcard-settings.php:812
-msgid "Text of More Button"
-msgstr "続きを読むボタンの文字"
-
-#: ../lib/pz-linkcard-settings.php:822
-msgid "Open New Window/Tab"
-msgstr "新しいタブで開く"
-
-#: ../lib/pz-linkcard-settings.php:831
-msgid "All client"
-msgstr "すべての端末"
-
-#: ../lib/pz-linkcard-settings.php:832
-msgid "Other than mobile"
-msgstr "モバイル端末以外"
-
-#: ../lib/pz-linkcard-settings.php:838
-msgid "Get Contents"
-msgstr "記事取得方法"
-
-#: ../lib/pz-linkcard-settings.php:846
-msgid "Always extract from the latest articles"
-msgstr "常に最新の記事内容から抜粋文を作成する"
-
-#: ../lib/pz-linkcard-settings.php:847
-msgid "If \"excerpt\" is set, give priority to it"
-msgstr "「抜粋」を設定していたら、それを優先"
-
-#: ../lib/pz-linkcard-settings.php:848
-msgid "Always display the contents registered in card management"
-msgstr "常にカード管理に登録された内容を表示"
-
-#: ../lib/pz-linkcard-settings.php:855
-msgid "Set NoFollow"
-msgstr "リンク先を信用しない"
-
-#: ../lib/pz-linkcard-settings.php:856
-msgid "In the case of an external site, it puts the \"nofollow\"."
-msgstr ""
-"アンカータグに rel=\"nofollow\" を追加して、検索エンジンの評価から外すことを"
-"宣言します。"
-
-#: ../lib/pz-linkcard-settings.php:859
-msgid "Set NoOpener"
-msgstr "リンク元タブを保護する"
-
-#: ../lib/pz-linkcard-settings.php:860
-msgid "In the case of an external site, it puts the \"noopener\"."
-msgstr ""
-"アンカータグに rel=\"noopener\" を追加して、リンク先サイトからリンク元タブに"
-"対する操作を無効にします。"
-
-#: ../lib/pz-linkcard-settings.php:863
-msgid "Use HatenaBlogCard"
-msgstr "はてなブログカードを使用する"
-
-#: ../lib/pz-linkcard-settings.php:864
-msgid "External links will use Always HatenaBlogCard."
-msgstr "外部リンクは「はてなブログカード」を利用する。"
-
-#: ../lib/pz-linkcard-settings.php:868
-msgid "Retry Get PID"
-msgstr "記事URLの再取得"
-
-#: ../lib/pz-linkcard-settings.php:874
-msgid "When the `Post ID` can not be acquired, it is acquired again."
-msgstr "記事IDが取得できなかった場合に、リダイレクト先のURLを取得する。"
-
-#: ../lib/pz-linkcard-settings.php:885
-msgid "Link Check Settings"
-msgstr "リンク先の検査の設定"
-
-#: ../lib/pz-linkcard-settings.php:888
-msgid "Relative URL"
-msgstr "相対指定URL"
-
-#: ../lib/pz-linkcard-settings.php:889
-msgid "For relative-specified URLs, complement the site URL."
-msgstr "相対指定のURLの場合、サイトURLを補完します。"
-
-#: ../lib/pz-linkcard-settings.php:892
-msgid "Do Not Link at Error"
-msgstr "エラーのときリンクしない"
-
-#: ../lib/pz-linkcard-settings.php:893
-msgid "When access status is \"403\", \"404\", \"410\", unlink."
-msgstr "ステータスが「403」「404」「410」のときにリンクを無効にします。"
-
-#: ../lib/pz-linkcard-settings.php:896
-msgid "Disable SSL Verification"
-msgstr "SSL検証を無効"
-
-#: ../lib/pz-linkcard-settings.php:897
-msgid "Try setting if the contents of the SSL site can not be acquired."
-msgstr ""
-"SSLサイトのタイトルや記事内容が取得できない場合に設定することで取得できる可能"
-"性があります。"
-
-#: ../lib/pz-linkcard-settings.php:900
-msgid "Follow Location"
-msgstr "リダイレクト処理する"
-
-#: ../lib/pz-linkcard-settings.php:901
-msgid "Track when the link destination is redirected."
-msgstr "リンク先がリダイレクトされている場合に追跡します。"
-
-#: ../lib/pz-linkcard-settings.php:904
-msgid "Set Referer"
-msgstr "リファラーの通知"
-
-#: ../lib/pz-linkcard-settings.php:905
-msgid "Notify the article URL to the link destination."
-msgstr "リンク先に記事のURLを知らせます。"
-
-#: ../lib/pz-linkcard-settings.php:908
-msgid "Use User-Agent"
-msgstr "ユーザーエージェントの通知"
-
-#: ../lib/pz-linkcard-settings.php:910
-msgid "Notify using Pz-LinkCard to the link destination."
-msgstr "リンク先にPz-LinkCardを使用していることを知らせます。"
-
-#: ../lib/pz-linkcard-settings.php:915
-msgid "Broken Link Checker"
-msgstr "リンク切れチェッカー"
-
-#: ../lib/pz-linkcard-settings.php:916
-msgid "Alive confirmation of the link destination."
-msgstr "リンク先がアクセスできるか定期的に確認します。"
-
-#: ../lib/pz-linkcard-settings.php:919
-msgid "Broken Link Count"
-msgstr "リンク切れカウント"
-
-#: ../lib/pz-linkcard-settings.php:920
-msgid "The number of broken links is displayed next to the submenu."
-msgstr "サブメニューの横にリンク切れの件数を表示します。"
-
-#: ../lib/pz-linkcard-settings.php:926
-msgid "Editor Settings"
-msgstr "エディターの設定"
-
-#: ../lib/pz-linkcard-settings.php:929
-msgid "Convert from Text Link"
-msgstr "テキストリンク行を変換"
-
-#: ../lib/pz-linkcard-settings.php:930
-msgid "Convert lines with text link only to Linkcard."
-msgstr "テキストリンクだけの行をリンクカードに変換する。"
-
-#: ../lib/pz-linkcard-settings.php:933
-msgid "Convert from URL"
-msgstr "URL行を変換"
-
-#: ../lib/pz-linkcard-settings.php:934
-msgid "Convert lines with URL only to Linkcard."
-msgstr "URLだけの行をリンクカードに変換する。"
-
-#: ../lib/pz-linkcard-settings.php:937
-msgid "External Link Only"
-msgstr "外部リンクのみ"
-
-#: ../lib/pz-linkcard-settings.php:938
-msgid "Convert only external links."
-msgstr "外部リンクのときのみ変換します。"
-
-#: ../lib/pz-linkcard-settings.php:942
-msgid "Do Shortcode"
-msgstr "ショートコード 実行"
-
-#: ../lib/pz-linkcard-settings.php:943
-msgid "Force shortcode development."
-msgstr "リンク・URLから変換したときにショートコードを強制的に実行する。"
-
-#: ../lib/pz-linkcard-settings.php:947
-msgid "Add Insert Button"
-msgstr "リンクカードボタンを追加"
-
-#: ../lib/pz-linkcard-settings.php:949
-msgid "Add insert button to visual editor."
-msgstr ""
-"ビジュアル エディタにリンクカードのショートコードを挿入するボタンを追加する。"
-
-#: ../lib/pz-linkcard-settings.php:950
-msgid "Filter Priority:"
-msgstr "フィルター優先度："
-
-#: ../lib/pz-linkcard-settings.php:950
+#: ../lib/pz-linkcard-settings-advanced.php:30
 msgid "(Null or 0-9999)"
 msgstr "（空欄もしくは0～9999）"
 
-#: ../lib/pz-linkcard-settings.php:951
+#: ../lib/pz-linkcard-settings-advanced.php:31
 msgid ""
 "Setting a larger value may improve when the insert button does not appear in "
 "the editor."
@@ -1546,501 +759,2127 @@ msgstr ""
 "挿入ボタンが表示されないときに11以上の値を入力すると改善される場合がありま"
 "す。"
 
-#: ../lib/pz-linkcard-settings.php:956
-msgid "Add Quick Tag"
-msgstr "クイックタグを追加"
-
-#: ../lib/pz-linkcard-settings.php:957
-msgid "Add quick tag button to text editor."
-msgstr ""
-"テキスト エディタにリンクカードのショートコードを挿入するクイックタグを追加す"
-"る。"
-
-#: ../lib/pz-linkcard-settings.php:961
-msgid "ShortCode 1"
-msgstr "ショートコード 1"
-
-#: ../lib/pz-linkcard-settings.php:962 ../lib/pz-linkcard-settings.php:979
-#: ../lib/pz-linkcard-settings.php:983 ../lib/pz-linkcard-settings.php:987
-msgid "Case-sensitive"
-msgstr "大文字と小文字を区別します"
-
-#: ../lib/pz-linkcard-settings.php:965
-msgid "Use InLineText"
-msgstr "ショートコードで囲んだ文字列を使用する"
-
-#: ../lib/pz-linkcard-settings.php:969
-msgid "No use"
-msgstr "使用しない"
-
-#: ../lib/pz-linkcard-settings.php:970
-msgid "Use to excerpt"
-msgstr "抜粋文として使用"
-
-#: ../lib/pz-linkcard-settings.php:971
-msgid "Use to title"
-msgstr "タイトルとして使用"
-
-#: ../lib/pz-linkcard-settings.php:974
-msgid "This setting applies only to the Shortcode1"
-msgstr "ショートコード1にのみ適用されます"
-
-#: ../lib/pz-linkcard-settings.php:978
-msgid "ShortCode 2"
-msgstr "ショートコード 2"
-
-#: ../lib/pz-linkcard-settings.php:982
-msgid "ShortCode 3"
-msgstr "ショートコード 3"
-
-#: ../lib/pz-linkcard-settings.php:986
-msgid "ShortCode 4"
-msgstr "ショートコード 4"
-
-#: ../lib/pz-linkcard-settings.php:990
-msgid "Parameters"
-msgstr "パラメータ"
-
-#: ../lib/pz-linkcard-settings.php:992 ../lib/pz-linkcard-settings.php:1212
-#: ../lib/pz-linkcard-settings.php:1221
-msgid "ex1."
-msgstr "例1."
-
-#: ../lib/pz-linkcard-settings.php:992
-msgid "Specify only URL parameters."
-msgstr "URLパラメーターだけを指定。"
-
-#: ../lib/pz-linkcard-settings.php:993 ../lib/pz-linkcard-settings.php:1213
-#: ../lib/pz-linkcard-settings.php:1222
-msgid "ex2."
-msgstr "例2."
-
-#: ../lib/pz-linkcard-settings.php:993
-msgid "Specify URL and title parameters."
-msgstr "URLパラメーターとtitleパラメーターを指定。"
-
-#: ../lib/pz-linkcard-settings.php:994
-msgid "ex3."
-msgstr "例3."
-
-#: ../lib/pz-linkcard-settings.php:994
-msgid "Specify URL, title and content parameters."
-msgstr "URLパラメーターとtitleパラメーターとcontentパラメーターを指定。"
-
-#: ../lib/pz-linkcard-settings.php:995
-msgid ""
-"For any shortcode you can change the title and excerpt with `title` "
-"parameter and `content` parameter"
-msgstr ""
-"どのショートコードでも title パラメータと content パラメータでタイトルと抜粋"
-"文を指定できます"
-
-#: ../lib/pz-linkcard-settings.php:1002
-msgid "Multi Site Information"
-msgstr "マルチサイト情報"
-
-#: ../lib/pz-linkcard-settings.php:1003 ../lib/pz-linkcard-settings.php:1046
-msgid "Cannot be changed"
-msgstr "設定は変更できません"
-
-#: ../lib/pz-linkcard-settings.php:1009
-msgid "Disabled"
-msgstr "無効化"
-
-#: ../lib/pz-linkcard-settings.php:1010
-msgid "Enabled"
-msgstr "有効化"
-
-#: ../lib/pz-linkcard-settings.php:1015
-msgid "Type"
-msgstr "種類"
-
-#: ../lib/pz-linkcard-settings.php:1018
-msgid "Subdirectories"
-msgstr "サブディレクトリー型"
-
-#: ../lib/pz-linkcard-settings.php:1019
-msgid "Subdomains"
-msgstr "サブドメイン型"
-
-#: ../lib/pz-linkcard-settings.php:1024
-msgid "Current Blog ID"
-msgstr "現在のブログID"
-
-#: ../lib/pz-linkcard-settings.php:1030
-msgid "Number of Sites"
-msgstr "サイトの数"
-
-#: ../lib/pz-linkcard-settings.php:1040
-msgid "Link to SubSite"
-msgstr "サブサイトへのリンク"
-
-#: ../lib/pz-linkcard-settings.php:1041
-msgid "Treat links to subsites as external links."
-msgstr "サブサイトへのリンクを外部リンクとして扱う。"
-
-#: ../lib/pz-linkcard-settings.php:1045
-msgid "Site List"
-msgstr "サイトの一覧"
-
-#: ../lib/pz-linkcard-settings.php:1051
-msgid "Current"
-msgstr "現在"
-
-#: ../lib/pz-linkcard-settings.php:1052
-msgid "Blog ID"
-msgstr "ブログID"
-
-#: ../lib/pz-linkcard-settings.php:1073
-msgid "Senior Settings"
-msgstr "上級者向けの設定"
-
-#: ../lib/pz-linkcard-settings.php:1076
-msgid "Trailing Slash"
-msgstr "末尾のスラッシュの除去"
-
-#: ../lib/pz-linkcard-settings.php:1079
-msgid "As it"
-msgstr "そのまま"
-
-#: ../lib/pz-linkcard-settings.php:1080
-msgid "When only domain name, remove"
-msgstr "ドメイン名のみのときだけ削除"
-
-#: ../lib/pz-linkcard-settings.php:1081
-msgid "Always remove"
-msgstr "常に削除"
-
-#: ../lib/pz-linkcard-settings.php:1087
-msgid "Class ID to be Added (for PC)"
-msgstr "PCのときに追加するクラス名"
-
-#: ../lib/pz-linkcard-settings.php:1091
-msgid "Class ID to be Added (for Mobile)"
-msgstr "モバイルのときに追加するクラス名"
-
-#: ../lib/pz-linkcard-settings.php:1096
+#: ../lib/pz-linkcard-settings-advanced.php:36
 msgid "Compress"
 msgstr "圧縮"
 
-#: ../lib/pz-linkcard-settings.php:1097
+#: ../lib/pz-linkcard-settings-advanced.php:41
 msgid "Compress CSS and JavaScript to improve access speed."
 msgstr "CSSやJavaScriptを圧縮してアクセス速度を向上させます。"
 
-#: ../lib/pz-linkcard-settings.php:1101
+#: ../lib/pz-linkcard-settings-advanced.php:46
+msgid "Text Selection"
+msgstr "テキストの選択"
+
+#: ../lib/pz-linkcard-settings-advanced.php:51
+msgid "Prohibit the selection of text in the Link-Card."
+msgstr "リンクカード内を選択出来なくします。"
+
+#: ../lib/pz-linkcard-settings-advanced.php:56
+msgid "Date Format (Manager)"
+msgstr "管理画面での日付の書式"
+
+#: ../lib/pz-linkcard-settings-advanced.php:61
+msgid "Input Inhibit Time"
+msgstr "入力抑制"
+
+#: ../lib/pz-linkcard-settings-advanced.php:66
+msgid ""
+"After pressing a button, the screen goes dark to prevent accidental input."
+msgstr "誤入力を防ぐため、処理中は入力禁止にする。"
+
+#: ../lib/pz-linkcard-settings-advanced.php:73
+msgid "Not Recommended Settings"
+msgstr "非推奨"
+
+#: ../lib/pz-linkcard-settings-advanced.php:76
 msgid "Google AMP determination"
 msgstr "Goole AMPの判定"
 
-#: ../lib/pz-linkcard-settings.php:1103
+#: ../lib/pz-linkcard-settings-advanced.php:82
 msgid ""
 "Simplified display if the URL ends with \"/amp\", \"/amp/\", or \"/?amp=1\"."
 msgstr ""
 "URLの末尾が「/amp」、「/amp/」または「/?amp=1\"」の場合、簡易表示する。"
 
-#: ../lib/pz-linkcard-settings.php:1108
+#: ../lib/pz-linkcard-settings-advanced.php:82
+#: ../lib/pz-linkcard-settings-advanced.php:91
+#: ../lib/pz-linkcard-settings-advanced.php:101
+#: ../lib/pz-linkcard-settings-advanced.php:136
+#: ../lib/pz-linkcard-settings-advanced.php:146
+#: ../lib/pz-linkcard-settings-advanced.php:156
+#: ../lib/pz-linkcard-settings-check.php:12
+msgid "(Deprecation)"
+msgstr "<span style=\"color: #e40 !important;\">（非推奨）</span>"
+
+#: ../lib/pz-linkcard-settings-advanced.php:88
+msgid "Use Blockquote Tag"
+msgstr "BLOCKQUOTEタグを使用する"
+
+#: ../lib/pz-linkcard-settings-advanced.php:91
+msgid "Without using DIV tag, and use BLOCKQUOTE tag."
+msgstr "&lt;BLOCKQUOTE&gt;で囲んで引用扱いにします。"
+
+#: ../lib/pz-linkcard-settings-advanced.php:96
 msgid "Hide URL Error"
 msgstr "URLエラーを非表示"
 
-#: ../lib/pz-linkcard-settings.php:1109
+#: ../lib/pz-linkcard-settings-advanced.php:101
 msgid "Do not display an error on the admin page."
 msgstr "管理画面にURLエラーを表示しません。"
 
-#: ../lib/pz-linkcard-settings.php:1113
+#: ../lib/pz-linkcard-settings-advanced.php:108
 msgid "Extension Settings"
 msgstr "拡張機能の設定"
 
-#: ../lib/pz-linkcard-settings.php:1117
+#: ../lib/pz-linkcard-settings-advanced.php:116
 msgid "Display the file menu on the card management screen."
 msgstr "カード管理画面へ「ファイルメニュー」を表示します。"
 
-#: ../lib/pz-linkcard-settings.php:1120
+#: ../lib/pz-linkcard-settings-advanced.php:121
 msgid "Initialize Tab"
 msgstr "初期化タブ"
 
-#: ../lib/pz-linkcard-settings.php:1121
+#: ../lib/pz-linkcard-settings-advanced.php:126
 msgid "Display the initialize tab on the settings screen."
 msgstr "設定画面に「初期化」タブを表示します。"
 
-#: ../lib/pz-linkcard-settings.php:1124
+#: ../lib/pz-linkcard-settings-advanced.php:136
+msgid "Displays normally hidden items to find and fix defects."
+msgstr "不具合を発見するために、通常は隠されている項目を表示する。"
+
+#: ../lib/pz-linkcard-settings-advanced.php:141
+#: ../lib/pz-linkcard-settings.php:165
 msgid "Survey Mode"
 msgstr "調査モード"
 
-#: ../lib/pz-linkcard-settings.php:1125
-msgid "Outputs some events and setting information to a log file."
-msgstr "いくつかのイベントや設定情報等をログファイルへ出力します。"
+#: ../lib/pz-linkcard-settings-advanced.php:146
+msgid "Collect logs. May slow down operation."
+msgstr "ログを収集します。動作が遅くなる可能性があります。"
 
-#: ../lib/pz-linkcard-settings.php:1128
+#: ../lib/pz-linkcard-settings-advanced.php:151
 msgid "Administrator Mode"
 msgstr "管理者モード"
 
-#: ../lib/pz-linkcard-settings.php:1129
+#: ../lib/pz-linkcard-settings-advanced.php:156
 msgid ""
 "Display information that is not normally needed or open special settings."
 msgstr "通常は必要のない情報を表示したり、特別な設定を開放します。"
 
-#: ../lib/pz-linkcard-settings.php:1132
+#: ../lib/pz-linkcard-settings-advanced.php:161
+msgid "MultiSite Mode"
+msgstr "マルチサイトタブ"
+
+#: ../lib/pz-linkcard-settings-advanced.php:166
+msgid "Displays a menu for Multi-Site"
+msgstr "設定画面に「マルチサイト」タブを表示します。"
+
+#: ../lib/pz-linkcard-settings-advanced.php:171
 msgid "Develop Mode"
 msgstr "開発モード"
 
-#: ../lib/pz-linkcard-settings.php:1139
+#: ../lib/pz-linkcard-settings-advanced.php:176
+msgid "Currently working in a development environment."
+msgstr "現在、開発環境で作業中です。"
+
+#: ../lib/pz-linkcard-settings-basic.php:4
+msgid "Basic Settings"
+msgstr "基本の設定"
+
+#: ../lib/pz-linkcard-settings-basic.php:11
+#: ../lib/pz-linkcard-settings-card.php:351
+#: ../lib/pz-linkcard-settings-card.php:410
+#: ../lib/pz-linkcard-settings-display.php:11
+#: ../lib/pz-linkcard-settings-display.php:65
+#: ../lib/pz-linkcard-settings-display.php:76
+#: ../lib/pz-linkcard-settings-display.php:103
+#: ../lib/pz-linkcard-settings-display.php:117
+#: ../lib/pz-linkcard-settings-position.php:63
+#: ../lib/pz-linkcard-settings-position.php:98
+#: ../lib/pz-linkcard-settings.php:28 ../lib/pz-linkcard-settings.php:44
+#: ../lib/pz-linkcard-settings.php:57
+msgid "None"
+msgstr "なし"
+
+#: ../lib/pz-linkcard-settings-basic.php:12
+msgid "Pz-LkC Default"
+msgstr "Pz リンクカード オリジナル"
+
+#: ../lib/pz-linkcard-settings-basic.php:13
+msgid "Normal"
+msgstr "ノーマル（はてなブログカード風）"
+
+#: ../lib/pz-linkcard-settings-basic.php:14
+msgid "Compact"
+msgstr "コンパクト"
+
+#: ../lib/pz-linkcard-settings-basic.php:15
+msgid "Simple"
+msgstr "シンプル"
+
+#: ../lib/pz-linkcard-settings-basic.php:16
+msgid "Headline"
+msgstr "ヘッダー"
+
+#: ../lib/pz-linkcard-settings-basic.php:17
+msgid "Cellophane tape \"center\""
+msgstr "セロハンテープ（中央）"
+
+#: ../lib/pz-linkcard-settings-basic.php:18
+msgid "Cellophane tape \"Top corner\""
+msgstr "セロハンテープ（左上と右上）"
+
+#: ../lib/pz-linkcard-settings-basic.php:19
+msgid "Cellophane tape \"long\""
+msgstr "セロハンテープ（長め）"
+
+#: ../lib/pz-linkcard-settings-basic.php:20
+msgid "Cellophane tape \"digonal\""
+msgstr "セロハンテープ（斜め）"
+
+#: ../lib/pz-linkcard-settings-basic.php:21
+msgid "Cellophane tape and curling"
+msgstr "セロハンテープと紙めくれた効果"
+
+#: ../lib/pz-linkcard-settings-basic.php:22
+msgid "Curling paper"
+msgstr "紙がめくれた効果"
+
+#: ../lib/pz-linkcard-settings-basic.php:23
+msgid "Stitch blue & red"
+msgstr "縫い目（青と赤）"
+
+#: ../lib/pz-linkcard-settings-basic.php:24
+msgid "Stitch green & yellow"
+msgstr "縫い目（緑と黄色）"
+
+#: ../lib/pz-linkcard-settings-basic.php:25
+msgid "Square"
+msgstr "スクエア"
+
+#: ../lib/pz-linkcard-settings-basic.php:26
+msgid "Enclose"
+msgstr "囲み"
+
+#: ../lib/pz-linkcard-settings-basic.php:27
+msgid "Reflection"
+msgstr "反射"
+
+#: ../lib/pz-linkcard-settings-basic.php:28
+msgid "Infomation orange"
+msgstr "インフォメーション オレンジ"
+
+#: ../lib/pz-linkcard-settings-basic.php:29
+msgid "Neutral bluegreen"
+msgstr "ニュートラル ブルーグリーン"
+
+#: ../lib/pz-linkcard-settings-basic.php:30
+msgid "Enlightened green"
+msgstr "エンライテド グリーン"
+
+#: ../lib/pz-linkcard-settings-basic.php:31
+msgid "Resistance blue"
+msgstr "レジスタンス ブルー"
+
+#: ../lib/pz-linkcard-settings-basic.php:32
+msgid "Windows XP"
+msgstr "Windows XP 風"
+
+#: ../lib/pz-linkcard-settings-basic.php:33
+msgid "Windows 95"
+msgstr "Windows 95 風"
+
+#: ../lib/pz-linkcard-settings-basic.php:34
+msgid "Slanting"
+msgstr "斜め"
+
+#: ../lib/pz-linkcard-settings-basic.php:35
+msgid "3D Rotate"
+msgstr "3D回転"
+
+#: ../lib/pz-linkcard-settings-basic.php:36
+msgid "Pushpin"
+msgstr "押しピン"
+
+#: ../lib/pz-linkcard-settings-basic.php:38
+msgid "Easy Format"
+msgstr "かんたん書式設定"
+
+#: ../lib/pz-linkcard-settings-basic.php:39
+msgid "It applies over other formatting settings."
+msgstr "ほかの項目よりも優先して適用されます。"
+
+#: ../lib/pz-linkcard-settings-basic.php:44
+msgid "Saved Datetime"
+msgstr "保存した日時"
+
+#: ../lib/pz-linkcard-settings-basic.php:53
+msgid "Changelog"
+msgstr "修正履歴"
+
+#: ../lib/pz-linkcard-settings-basic.php:59
+msgid "Related Information"
+msgstr "関連情報"
+
+#: ../lib/pz-linkcard-settings-basic.php:62
+msgid "How to"
+msgstr "使い方"
+
+#: ../lib/pz-linkcard-settings-basic.php:62
+msgid "Japanese Only"
+msgstr "日本語のみ"
+
+#: ../lib/pz-linkcard-settings-basic.php:69
+msgid "Author's Site"
+msgstr "作者のサイト"
+
+#: ../lib/pz-linkcard-settings-basic.php:70
+msgid "Popozure."
+msgstr "ぽぽづれ。"
+
+#: ../lib/pz-linkcard-settings-basic.php:70
+msgid "Poporon's PC Daily Diary"
+msgstr "ぽぽろんのパソコンつれづれ（ズレズレ？）日記"
+
+#: ../lib/pz-linkcard-settings-basic.php:73
+msgid "When in Trouble"
+msgstr "困ったときは"
+
+#: ../lib/pz-linkcard-settings-basic.php:74
+msgid "Twitter Account"
+msgstr "ツイッター アカウント"
+
+#: ../lib/pz-linkcard-settings-basic.php:78
+msgid "Donation"
+msgstr "寄付"
+
+#: ../lib/pz-linkcard-settings-basic.php:79
+msgid "Wishlist"
+msgstr "ほしい物リスト"
+
+#: ../lib/pz-linkcard-settings-card.php:4
+msgid "External Link Settings"
+msgstr "外部リンクの設定"
+
+#: ../lib/pz-linkcard-settings-card.php:5
+msgid "Internal Link Settings"
+msgstr "内部リンクの設定"
+
+#: ../lib/pz-linkcard-settings-card.php:6
+msgid "Same Page Link Settings"
+msgstr "同ページへのリンクの設定"
+
+#: ../lib/pz-linkcard-settings-card.php:23 ../lib/pz-linkcard-settings.php:420
+msgid "Basic"
+msgstr "基本"
+
+#: ../lib/pz-linkcard-settings-card.php:31
+msgid "Open New Window/Tab"
+msgstr "新しいタブで開く"
+
+#: ../lib/pz-linkcard-settings-card.php:67
+msgid "Border Color"
+msgstr "枠線の色"
+
+#: ../lib/pz-linkcard-settings-card.php:74
+#: ../lib/pz-linkcard-settings-letter.php:10
+msgid "Background Color"
+msgstr "背景色"
+
+#: ../lib/pz-linkcard-settings-card.php:82
+msgid "Background Image"
+msgstr "背景画像"
+
+#: ../lib/pz-linkcard-settings-card.php:92
+#: ../lib/pz-linkcard-settings-card.php:172
+#: ../lib/pz-linkcard-settings-card.php:190
+#: ../lib/pz-linkcard-settings-card.php:238
+#: ../lib/pz-linkcard-settings-card.php:388
+#: ../lib/pz-linkcard-settings-card.php:469
+msgid "It is common with setting Internal-link"
+msgstr "内部リンク用の設定が使用されます"
+
+#: ../lib/pz-linkcard-settings-card.php:116
+msgid "Article Content"
+msgstr "記事内容"
+
+#: ../lib/pz-linkcard-settings-card.php:121
+msgid "Get Contents"
+msgstr "記事取得方法"
+
+#: ../lib/pz-linkcard-settings-card.php:131
+msgid "Always extract from the latest articles"
+msgstr "常に最新の記事内容から抜粋文を作成する"
+
+#: ../lib/pz-linkcard-settings-card.php:132
+msgid "Always use the most recent article content. Prioritize \"Excerpt\""
+msgstr "常に最新の記事内容を使用するが、「抜粋文」を優先する"
+
+#: ../lib/pz-linkcard-settings-card.php:133
+msgid "Always use the most recent article content. Prioritize \"Custom-Field\""
+msgstr "常に最新の記事内容を使用するが、指定したカスタムフィールドを優先する"
+
+#: ../lib/pz-linkcard-settings-card.php:134
+msgid "Always display the contents registered in card management"
+msgstr "常にカード管理に登録された内容を表示"
+
+#: ../lib/pz-linkcard-settings-card.php:164
+msgid "Custom Field (Title)"
+msgstr "タイトルにするカスタムフィールド"
+
+#: ../lib/pz-linkcard-settings-card.php:182
+msgid "Custom Field (Excerpt)"
+msgstr "抜粋文にするカスタムフィールド"
+
+#: ../lib/pz-linkcard-settings-card.php:201
+#: ../lib/pz-linkcard-settings-card.php:202
+#: ../lib/pz-linkcard-settings-card.php:226
+#: ../lib/pz-linkcard-settings-card.php:227
+#: ../lib/pz-linkcard-settings-card.php:237
+msgid "Reserved"
+msgstr "予備"
+
+#: ../lib/pz-linkcard-settings-card.php:216
+msgid "Get Redirect"
+msgstr "リダイレクト先からの取得"
+
+#: ../lib/pz-linkcard-settings-card.php:217
+msgid "When the `Post ID` can not be acquired, it is acquired again."
+msgstr "記事IDが取得できなかった場合に、リダイレクト先のURLを取得する。"
+
+#: ../lib/pz-linkcard-settings-card.php:250
+msgid "Heading"
+msgstr "ヘッダー"
+
+#: ../lib/pz-linkcard-settings-card.php:255
+#: ../lib/pz-linkcard-settings-card.php:289
+#: ../lib/pz-linkcard-settings-card.php:318
+msgid "Text"
+msgstr "テキスト"
+
+#: ../lib/pz-linkcard-settings-card.php:256
+msgid "When a string is entered, it is overlaid on the top border."
+msgstr "文字列を設定すると上側の枠に重ねて表示します。"
+
+#: ../lib/pz-linkcard-settings-card.php:261
+#: ../lib/pz-linkcard-settings-card.php:324
+msgid "External site"
+msgstr "外部サイト"
+
+#: ../lib/pz-linkcard-settings-card.php:262
+#: ../lib/pz-linkcard-settings-card.php:325
+msgid "This site"
+msgstr "このサイト内"
+
+#: ../lib/pz-linkcard-settings-card.php:263
+#: ../lib/pz-linkcard-settings-card.php:326
+msgid "This page"
+msgstr "同ページへのリンク"
+
+#: ../lib/pz-linkcard-settings-card.php:264
+msgid "Reference"
+msgstr "参考"
+
+#: ../lib/pz-linkcard-settings-card.php:284
+msgid "More"
+msgstr "続き"
+
+#: ../lib/pz-linkcard-settings-card.php:290
+msgid ""
+"When a string is entered, it is overlaid on the lower right corner of the "
+"article content."
+msgstr "文字列を設定すると記事内容の右下に重ねて表示します。"
+
+#: ../lib/pz-linkcard-settings-card.php:295
+msgid "More..."
+msgstr "続き…"
+
+#: ../lib/pz-linkcard-settings-card.php:296
+msgid "Read more"
+msgstr "続きを読む"
+
+#: ../lib/pz-linkcard-settings-card.php:297
+msgid "Go read the article"
+msgstr "記事を読みに行く"
+
+#: ../lib/pz-linkcard-settings-card.php:313
+#: ../lib/pz-linkcard-settings-letter.php:28
+#: ../lib/pz-linkcard-settings-position.php:57
+msgid "Site Information"
+msgstr "サイト情報"
+
+#: ../lib/pz-linkcard-settings-card.php:319
+msgid "Enter a string to display after the site name."
+msgstr "文字列を設定するとサイト名の後ろ表示します。"
+
+#: ../lib/pz-linkcard-settings-card.php:341
+msgid "How to get Site-Icon"
+msgstr "サイトアイコンの取得方法"
+
+#: ../lib/pz-linkcard-settings-card.php:352
+#: ../lib/pz-linkcard-settings-card.php:411
+msgid "Direct"
+msgstr "直接取得する"
+
+#: ../lib/pz-linkcard-settings-card.php:353
+#: ../lib/pz-linkcard-settings-card.php:412
+msgid "Direct > Use WebAPI"
+msgstr "直接取得する、取得出来なかったらWebAPIを利用する"
+
+#: ../lib/pz-linkcard-settings-card.php:354
+#: ../lib/pz-linkcard-settings-card.php:413
+msgid "Use WebAPI"
+msgstr "WebAPIを利用する"
+
+#: ../lib/pz-linkcard-settings-card.php:377
+msgid "Alternative text"
+msgstr "代替テキスト"
+
+#: ../lib/pz-linkcard-settings-card.php:396
+#: ../lib/pz-linkcard-settings-card.php:400
+#: ../lib/pz-linkcard-settings-display.php:90
+#: ../lib/pz-linkcard-settings-position.php:87
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+#: ../lib/pz-linkcard-settings-card.php:429
+msgid "Thumbnail Size"
+msgstr "サムネイルの大きさ"
+
+#: ../lib/pz-linkcard-settings-card.php:439
+msgid "Thumbnail (150px)"
+msgstr "小サイズ（150ピクセル）"
+
+#: ../lib/pz-linkcard-settings-card.php:440
+msgid "Medium (300px)"
+msgstr "中サイズ（300ピクセル）"
+
+#: ../lib/pz-linkcard-settings-card.php:441
+msgid "Large (1024px)"
+msgstr "大サイズ（1024ピクセル）"
+
+#: ../lib/pz-linkcard-settings-card.php:442
+msgid "Original Size"
+msgstr "元のサイズ"
+
+#: ../lib/pz-linkcard-settings-card.php:458
+msgid "Thubnail Alt Text"
+msgstr "サムネイルの代替テキスト"
+
+#: ../lib/pz-linkcard-settings-check.php:4
+msgid "Link Check Settings"
+msgstr "リンク先の検査の設定"
+
+#: ../lib/pz-linkcard-settings-check.php:7
+msgid "Set No-Follow"
+msgstr "リンク先を信用しない"
+
+#: ../lib/pz-linkcard-settings-check.php:12
+msgid "In the case of an external site, it puts the \"nofollow\"."
+msgstr ""
+"外部へのリンク時、アンカータグに rel=\"nofollow\" を追加して、検索エンジンの"
+"評価から外すことを宣言します。"
+
+#: ../lib/pz-linkcard-settings-check.php:17
+msgid "Set No-Opener"
+msgstr "リンク元タブを保護する"
+
+#: ../lib/pz-linkcard-settings-check.php:22
+msgid "In the case of an external site, it puts the \"noopener\"."
+msgstr ""
+"外部へのリンク時、アンカータグに rel=\"noopener\" を追加して、リンク先サイト"
+"からリンク元タブに対する操作を無効にします。"
+
+#: ../lib/pz-linkcard-settings-check.php:22
+msgid "(Recommend)"
+msgstr "<span style=\"color: #38f !important;\">（推奨）</span<"
+
+#: ../lib/pz-linkcard-settings-check.php:27
+msgid "Set Referer"
+msgstr "リファラーの通知"
+
+#: ../lib/pz-linkcard-settings-check.php:32
+msgid "Notify the article URL to the link destination."
+msgstr "リンク先に記事のURLを知らせます。"
+
+#: ../lib/pz-linkcard-settings-check.php:37
+msgid "Relative URL"
+msgstr "相対指定URL"
+
+#: ../lib/pz-linkcard-settings-check.php:42
+msgid "For relative-specified URLs, complement the site URL."
+msgstr "相対指定のURLの場合、サイトURLを補完します。"
+
+#: ../lib/pz-linkcard-settings-check.php:47
+msgid "Do Not Link at Error"
+msgstr "エラーのときリンクしない"
+
+#: ../lib/pz-linkcard-settings-check.php:52
+msgid "When access status is \"403\", \"404\", \"410\", unlink."
+msgstr "ステータスが「403」「404」「410」のときにリンクを無効にします。"
+
+#: ../lib/pz-linkcard-settings-check.php:57
+msgid "Disable SSL Verification"
+msgstr "SSL検証を無効"
+
+#: ../lib/pz-linkcard-settings-check.php:62
+msgid "Try setting if the contents of the SSL site can not be acquired."
+msgstr ""
+"SSLサイトのタイトルや記事内容が取得できない場合に設定することで取得できる可能"
+"性があります。"
+
+#: ../lib/pz-linkcard-settings-check.php:67
+msgid "Follow Location"
+msgstr "リダイレクト処理する"
+
+#: ../lib/pz-linkcard-settings-check.php:72
+msgid "Track when the link destination is redirected."
+msgstr "リンク先がリダイレクトされている場合に追跡します。"
+
+#: ../lib/pz-linkcard-settings-check.php:77
+msgid "Use User-Agent"
+msgstr "ユーザーエージェントの通知"
+
+#: ../lib/pz-linkcard-settings-check.php:82
+msgid "Notify using Pz-LinkCard to the link destination."
+msgstr "リンク先にPz-LinkCardを使用していることを知らせます。"
+
+#: ../lib/pz-linkcard-settings-check.php:88
+msgid "Broken Link Checker"
+msgstr "リンク切れチェッカー"
+
+#: ../lib/pz-linkcard-settings-check.php:93
+msgid "Alive confirmation of the link destination."
+msgstr "リンク先がアクセスできるか定期的に確認します。"
+
+#: ../lib/pz-linkcard-settings-check.php:98
+msgid "Broken Link Count"
+msgstr "リンク切れカウント"
+
+#: ../lib/pz-linkcard-settings-check.php:103
+msgid "The number of broken links is displayed next to the submenu."
+msgstr "サブメニューの横にリンク切れの件数を表示します。"
+
+#: ../lib/pz-linkcard-settings-display.php:4
+msgid "Display Settings"
+msgstr "表示の設定"
+
+#: ../lib/pz-linkcard-settings-display.php:8
+msgid "Link Card"
+msgstr "リンクカード"
+
+#: ../lib/pz-linkcard-settings-display.php:10
+msgid "Position to display URL"
+msgstr "URLを表示する位置"
+
+#: ../lib/pz-linkcard-settings-display.php:12
+#: ../lib/pz-linkcard-settings-display.php:118
+msgid "Under Title"
+msgstr "タイトルの下の行"
+
+#: ../lib/pz-linkcard-settings-display.php:13
+#: ../lib/pz-linkcard-settings-display.php:119
+msgid "Bihind Site-Info"
+msgstr "サイト情報の後ろ"
+
+#: ../lib/pz-linkcard-settings-display.php:18
+msgid "For internal links, display date instead of URL."
+msgstr "内部リンクの場合、URLの代わりに投稿日／更新日を表示します。"
+
+#: ../lib/pz-linkcard-settings-display.php:19
+msgid "Off"
+msgstr "オフ"
+
+#: ../lib/pz-linkcard-settings-display.php:20
+msgid "Post date"
+msgstr "投稿日"
+
+#: ../lib/pz-linkcard-settings-display.php:21
+msgid "Update date"
+msgstr "更新日"
+
+#: ../lib/pz-linkcard-settings-display.php:22
+msgid "Post date and Update date"
+msgstr "投稿日と更新日"
+
+#: ../lib/pz-linkcard-settings-display.php:27
+msgid "Separator Line"
+msgstr "区切り線"
+
+#: ../lib/pz-linkcard-settings-display.php:32
+msgid "Show Contents Frame"
+msgstr "記事情報に枠を表示する"
+
+#: ../lib/pz-linkcard-settings-display.php:37
+msgid "Show Excerpt"
+msgstr "抜粋文を表示"
+
+#: ../lib/pz-linkcard-settings-display.php:42
+msgid "Shadow-inset"
+msgstr "影を内側に付ける"
+
+#: ../lib/pz-linkcard-settings-display.php:47
+msgid "Shadow"
+msgstr "影を付ける"
+
+#: ../lib/pz-linkcard-settings-display.php:52
+#: ../lib/pz-linkcard-settings-display.php:102
+msgid "Round a square"
+msgstr "角を丸める"
+
+#: ../lib/pz-linkcard-settings-display.php:57
+msgid "Style"
+msgstr "表示設定"
+
+#: ../lib/pz-linkcard-settings-display.php:58
+#: ../lib/pz-linkcard-settings-position.php:108
+#: ../lib/pz-linkcard-settings-position.php:128
+msgid "Width"
+msgstr "幅"
+
+#: ../lib/pz-linkcard-settings-display.php:64
+msgid "More button"
+msgstr "続きを読むボタン"
+
+#: ../lib/pz-linkcard-settings-display.php:66
+msgid "Text only"
+msgstr "テキスト のみ"
+
+#: ../lib/pz-linkcard-settings-display.php:67
+msgid "Simple button"
+msgstr "シンプルなボタン"
+
+#: ../lib/pz-linkcard-settings-display.php:68
+msgid "Button"
+msgstr "ボタン"
+
+#: ../lib/pz-linkcard-settings-display.php:69
+msgid "Push Button"
+msgstr "押せるボタン"
+
+#: ../lib/pz-linkcard-settings-display.php:75
+msgid "When the mouse is on"
+msgstr "マウスが上に乗ったとき、"
+
+#: ../lib/pz-linkcard-settings-display.php:77
+msgid "Lighten"
+msgstr "薄色にする"
+
+#: ../lib/pz-linkcard-settings-display.php:78
+msgid "Hover (Light)"
+msgstr "浮かせる（薄色）"
+
+#: ../lib/pz-linkcard-settings-display.php:79
+msgid "Hover (Dark)"
+msgstr "浮かせる（濃色）"
+
+#: ../lib/pz-linkcard-settings-display.php:80
+msgid "Retract (for Shadow)"
+msgstr "沈む（影を付けるとの組み合わせを推奨）"
+
+#: ../lib/pz-linkcard-settings-display.php:81
+msgid "Radius"
+msgstr "角を丸める"
+
+#: ../lib/pz-linkcard-settings-display.php:86
+msgid ""
+"When unnecessary frame is displayed on the image, you can improve it by case"
+msgstr "画像がずれて表示されるときに改善される可能性が有ります（推奨）"
+
+#: ../lib/pz-linkcard-settings-display.php:92
+msgid "Show Thumbnail Border"
+msgstr "サムネイル画像に枠線を表示する"
+
+#: ../lib/pz-linkcard-settings-display.php:97
+msgid "Show Thumbnail Shadow"
+msgstr "サムネイル画像に影を表示する"
+
+#: ../lib/pz-linkcard-settings-display.php:104
+#: ../lib/pz-linkcard-settings.php:7 ../lib/pz-linkcard-settings.php:29
+msgid "2px"
+msgstr "2px"
+
+#: ../lib/pz-linkcard-settings-display.php:105
+#: ../lib/pz-linkcard-settings.php:7 ../lib/pz-linkcard-settings.php:13
+#: ../lib/pz-linkcard-settings.php:30
+msgid "4px"
+msgstr "4px"
+
+#: ../lib/pz-linkcard-settings-display.php:106
+#: ../lib/pz-linkcard-settings.php:7 ../lib/pz-linkcard-settings.php:31
+msgid "6px"
+msgstr "6px"
+
+#: ../lib/pz-linkcard-settings-display.php:107
+#: ../lib/pz-linkcard-settings.php:7 ../lib/pz-linkcard-settings.php:14
+#: ../lib/pz-linkcard-settings.php:32
+msgid "8px"
+msgstr "8px"
+
+#: ../lib/pz-linkcard-settings-display.php:108
+#: ../lib/pz-linkcard-settings.php:7 ../lib/pz-linkcard-settings.php:15
+#: ../lib/pz-linkcard-settings.php:33
+msgid "12px"
+msgstr "12px"
+
+#: ../lib/pz-linkcard-settings-display.php:109
+#: ../lib/pz-linkcard-settings.php:7 ../lib/pz-linkcard-settings.php:16
+#: ../lib/pz-linkcard-settings.php:34
+msgid "16px"
+msgstr "16px"
+
+#: ../lib/pz-linkcard-settings-display.php:110
+#: ../lib/pz-linkcard-settings.php:39
+msgid "50%"
+msgstr "50%"
+
+#: ../lib/pz-linkcard-settings-display.php:114
+msgid "Display SNS Count"
+msgstr "シェア数を表示する"
+
+#: ../lib/pz-linkcard-settings-display.php:126
+msgid "X (Twitter)"
+msgstr "X（旧ツイッター）"
+
+#: ../lib/pz-linkcard-settings-display.php:126
+#: ../lib/pz-linkcard-settings-display.php:138
+msgid "* number is not updated"
+msgstr "※数字は更新されません。"
+
+#: ../lib/pz-linkcard-settings-display.php:131
+msgid "Change the unit of measure to \"tweets\"."
+msgstr "単位を「Post」では無く「Tweet」にする"
+
+#: ../lib/pz-linkcard-settings-display.php:138
+msgid "Facebook"
+msgstr "フェイスブック（シェア数）"
+
+#: ../lib/pz-linkcard-settings-display.php:145
+msgid "Hatena"
+msgstr "はてなブックマーク"
+
+#: ../lib/pz-linkcard-settings-display.php:152
+msgid "Pocket"
+msgstr "Pocket"
+
+#: ../lib/pz-linkcard-settings-editor.php:4
+msgid "Convert Settings"
+msgstr "変換設定"
+
+#: ../lib/pz-linkcard-settings-editor.php:7
+msgid "Convert from Text Link"
+msgstr "テキストリンク行を変換"
+
+#: ../lib/pz-linkcard-settings-editor.php:12
+msgid "Convert lines with text link only to Linkcard."
+msgstr "テキストリンクだけしか書かれていない行をリンクカードに変換する。"
+
+#: ../lib/pz-linkcard-settings-editor.php:17
+msgid "Convert from URL"
+msgstr "URL行を変換"
+
+#: ../lib/pz-linkcard-settings-editor.php:22
+msgid "Convert lines with URL only to Linkcard."
+msgstr "URLだけしか書かれていない行をリンクカードに変換する。"
+
+#: ../lib/pz-linkcard-settings-editor.php:27
+msgid "Do Shortcode"
+msgstr "ショートコード 実行"
+
+#: ../lib/pz-linkcard-settings-editor.php:32
+msgid "Force shortcode development."
+msgstr "リンク・URLから変換したときにショートコードを強制的に実行する。"
+
+#: ../lib/pz-linkcard-settings-editor.php:37
+msgid "External Link Only"
+msgstr "外部リンクのみ"
+
+#: ../lib/pz-linkcard-settings-editor.php:42
+msgid "Convert only external links."
+msgstr "外部リンクのときのみ変換します。"
+
+#: ../lib/pz-linkcard-settings-editor.php:49
+msgid "Editor Settings"
+msgstr "エディターの設定"
+
+#: ../lib/pz-linkcard-settings-editor.php:52
+msgid "Add Insert Button"
+msgstr "リンクカードボタンを追加"
+
+#: ../lib/pz-linkcard-settings-editor.php:57
+msgid "Add insert button to visual editor."
+msgstr ""
+"ビジュアル エディタにリンクカードのショートコードを挿入するボタンを追加する。"
+
+#: ../lib/pz-linkcard-settings-editor.php:62
+msgid "Add Quick Tag"
+msgstr "クイックタグを追加"
+
+#: ../lib/pz-linkcard-settings-editor.php:67
+msgid "Add quick tag button to text editor."
+msgstr ""
+"テキスト エディタにリンクカードのショートコードを挿入するクイックタグを追加す"
+"る。"
+
+#: ../lib/pz-linkcard-settings-editor.php:72
+msgid "Clear Excerpt"
+msgstr "抜粋文をクリア"
+
+#: ../lib/pz-linkcard-settings-editor.php:77
+msgid "If TITLE parameter is specified, EXCERPT is also cleared."
+msgstr "ショートコードにTITLEパラメーターを指定した場合、抜粋文もクリアする"
+
+#: ../lib/pz-linkcard-settings-editor.php:84
+msgid "Shortcode Settings"
+msgstr "ショートコード設定"
+
+#: ../lib/pz-linkcard-settings-editor.php:87
+msgid "ShortCode 1"
+msgstr "ショートコード 1"
+
+#: ../lib/pz-linkcard-settings-editor.php:88
+#: ../lib/pz-linkcard-settings-editor.php:105
+#: ../lib/pz-linkcard-settings-editor.php:109
+#: ../lib/pz-linkcard-settings-editor.php:113
+msgid "Case-sensitive"
+msgstr "大文字と小文字を区別します"
+
+#: ../lib/pz-linkcard-settings-editor.php:91
+msgid "Use InLineText"
+msgstr "ショートコードで囲んだ文字列を使用する"
+
+#: ../lib/pz-linkcard-settings-editor.php:95
+msgid "No use"
+msgstr "使用しない"
+
+#: ../lib/pz-linkcard-settings-editor.php:96
+msgid "Use to excerpt"
+msgstr "抜粋文として使用"
+
+#: ../lib/pz-linkcard-settings-editor.php:97
+msgid "Use to title"
+msgstr "タイトルとして使用"
+
+#: ../lib/pz-linkcard-settings-editor.php:100
+msgid "This setting applies only to the Shortcode1"
+msgstr "ショートコード1にのみ適用されます"
+
+#: ../lib/pz-linkcard-settings-editor.php:104
+msgid "ShortCode 2"
+msgstr "ショートコード 2"
+
+#: ../lib/pz-linkcard-settings-editor.php:108
+msgid "ShortCode 3"
+msgstr "ショートコード 3"
+
+#: ../lib/pz-linkcard-settings-editor.php:112
+msgid "ShortCode 4"
+msgstr "ショートコード 4"
+
+#: ../lib/pz-linkcard-settings-editor.php:116
+msgid "Example Entry"
+msgstr "記入例"
+
+#: ../lib/pz-linkcard-settings-editor.php:118
+#: ../lib/pz-linkcard-settings-etc.php:43
+#: ../lib/pz-linkcard-settings-etc.php:52
+msgid "ex1."
+msgstr "例1."
+
+#: ../lib/pz-linkcard-settings-editor.php:118
+msgid "Specify only URL parameters."
+msgstr "URLパラメーターだけを指定する場合"
+
+#: ../lib/pz-linkcard-settings-editor.php:119
+#: ../lib/pz-linkcard-settings-etc.php:44
+#: ../lib/pz-linkcard-settings-etc.php:53
+msgid "ex2."
+msgstr "例2."
+
+#: ../lib/pz-linkcard-settings-editor.php:119
+msgid "Specify URL and title parameters."
+msgstr "URLパラメーターとtitleパラメーターを指定する場合"
+
+#: ../lib/pz-linkcard-settings-editor.php:120
+msgid "ex3."
+msgstr "例3."
+
+#: ../lib/pz-linkcard-settings-editor.php:120
+msgid "Specify URL, title and content parameters."
+msgstr "URLパラメーターとtitleパラメーターとcontentパラメーターを指定する場合"
+
+#: ../lib/pz-linkcard-settings-editor.php:121
+msgid ""
+"For any shortcode you can change the title and excerpt with `title` "
+"parameter and `content` parameter"
+msgstr ""
+"いずれのショートコードでも  title パラメータと content パラメータが使用できま"
+"す。"
+
+#: ../lib/pz-linkcard-settings-error.php:5
+msgid ""
+"The shortcode description is incorrect. Please open the \"Linked Articles\" "
+"section and correct it."
+msgstr ""
+"ショートコードの記述に誤りがあります。リンクされた記事を開いて修正してくださ"
+"い。"
+
+#: ../lib/pz-linkcard-settings-error.php:27
+msgid "Error Reset"
+msgstr "エラーの解除"
+
+#: ../lib/pz-linkcard-settings-error.php:29
+msgid "Reset"
+msgstr "エラー解除"
+
+#: ../lib/pz-linkcard-settings-error.php:30
+msgid "Cancel the error condition."
+msgstr "エラー状態を解除します。"
+
+#: ../lib/pz-linkcard-settings-error.php:31
+msgid ""
+"* If you have not corrected the error, you may still get an error even if "
+"you cancel the error."
+msgstr ""
+"※エラーを訂正していない場合、その記事を表示した際に再度エラー状態になります。"
+
+#: ../lib/pz-linkcard-settings-etc.php:4
 msgid "Stylesheet Settings"
 msgstr "スタイルシートの設定"
 
-#: ../lib/pz-linkcard-settings.php:1142
-msgid "Stylesheet URL"
-msgstr "CSSファイルのURL"
-
-#: ../lib/pz-linkcard-settings.php:1145 ../lib/pz-linkcard-settings.php:1176
-msgid "Schemes (http and https) are omitted."
-msgstr "スキーム（ http: や https: ）は省略されています。"
-
-#: ../lib/pz-linkcard-settings.php:1149
+#: ../lib/pz-linkcard-settings-etc.php:7
 msgid "Stylesheet URL to Add"
 msgstr "追加するCSSのURL"
 
-#: ../lib/pz-linkcard-settings.php:1150 ../lib/pz-linkcard-settings.php:1211
-#: ../lib/pz-linkcard-settings.php:1220
+#: ../lib/pz-linkcard-settings-etc.php:8 ../lib/pz-linkcard-settings-etc.php:42
+#: ../lib/pz-linkcard-settings-etc.php:51
 msgid "ex."
 msgstr "例."
 
-#: ../lib/pz-linkcard-settings.php:1153
+#: ../lib/pz-linkcard-settings-etc.php:11
 msgid "Stylesheet Text to Add"
 msgstr "追加するCSSのテキスト"
 
-#: ../lib/pz-linkcard-settings.php:1157
+#: ../lib/pz-linkcard-settings-etc.php:17
 msgid "Stylesheet Version"
 msgstr "CSSの補助バージョン"
 
-#: ../lib/pz-linkcard-settings.php:1161
-msgid "Stylesheet File"
-msgstr "CSSファイルのパス"
+#: ../lib/pz-linkcard-settings-etc.php:21
+#: ../lib/pz-linkcard-settings-etc.php:25
+msgid "CSS File URL"
+msgstr "CSSファイルのURL"
 
-#: ../lib/pz-linkcard-settings.php:1165
+#: ../lib/pz-linkcard-settings-etc.php:25
+msgid "(Compressed)"
+msgstr "圧縮"
+
+#: ../lib/pz-linkcard-settings-etc.php:29
 msgid "Stylesheet Templete File"
 msgstr "ひな型CSSファイルのパス"
 
-#: ../lib/pz-linkcard-settings.php:1170
-msgid "Image Settings"
-msgstr "画像の設定"
-
-#: ../lib/pz-linkcard-settings.php:1173
-msgid "Image Cache URL"
-msgstr "キャッシュ画像を保存するディレクトリのURL"
-
-#: ../lib/pz-linkcard-settings.php:1177 ../lib/pz-linkcard-settings.php:1194
-msgid "Used"
-msgstr "使用中"
-
-#: ../lib/pz-linkcard-settings.php:1177 ../lib/pz-linkcard-settings.php:1194
-msgid ": "
-msgstr "："
-
-#: ../lib/pz-linkcard-settings.php:1181
-msgid "Image Cache Directory"
-msgstr "キャッシュ画像を保存するディレクトリ"
-
-#: ../lib/pz-linkcard-settings.php:1188
-msgid "Survey Settings"
-msgstr "調査モードの設定"
-
-#: ../lib/pz-linkcard-settings.php:1191
-msgid "Log URL"
-msgstr "ログ格納ディレクトリーURL"
-
-#: ../lib/pz-linkcard-settings.php:1198
-msgid "Log Directory"
-msgstr "ログ格納ディレクトリー"
-
-#: ../lib/pz-linkcard-settings.php:1205
+#: ../lib/pz-linkcard-settings-etc.php:36
 msgid "Web-API Settings"
 msgstr "WebAPIの設定"
 
-#: ../lib/pz-linkcard-settings.php:1208
+#: ../lib/pz-linkcard-settings-etc.php:39
 msgid "Site Icon API"
 msgstr "サイトアイコン取得API"
 
-#: ../lib/pz-linkcard-settings.php:1211
+#: ../lib/pz-linkcard-settings-etc.php:42
 msgid "%DOMAIN% replace to domain name."
 msgstr "%DOMAIN% と記述するとドメイン名に置き換わります。"
 
-#: ../lib/pz-linkcard-settings.php:1211
+#: ../lib/pz-linkcard-settings-etc.php:42
 msgid "%DOMAIN_URL% replace to domain URL."
 msgstr "%DOMAIN_URL% と記述するとドメインのURLに置き換わります。"
 
-#: ../lib/pz-linkcard-settings.php:1211 ../lib/pz-linkcard-settings.php:1220
+#: ../lib/pz-linkcard-settings-etc.php:42
+#: ../lib/pz-linkcard-settings-etc.php:51
 msgid "%URL% replace to URL."
 msgstr "%URL% と記述すると記事のURLに置き換わります。"
 
-#: ../lib/pz-linkcard-settings.php:1217
+#: ../lib/pz-linkcard-settings-etc.php:48
 msgid "Thumbnail API"
 msgstr "サムネイル画像取得API"
 
-#: ../lib/pz-linkcard-settings.php:1232
+#: ../lib/pz-linkcard-settings-etc.php:59
+msgid "Image Settings"
+msgstr "画像の設定"
+
+#: ../lib/pz-linkcard-settings-etc.php:62
+msgid "Image Cache URL"
+msgstr "キャッシュ画像を保存するディレクトリのURL"
+
+#: ../lib/pz-linkcard-settings-etc.php:65
+#: ../lib/pz-linkcard-settings-etc.php:85
+msgid "Schemes (http and https) are omitted."
+msgstr "スキーム（ http: や https: ）は省略されています。"
+
+#: ../lib/pz-linkcard-settings-etc.php:66
+#: ../lib/pz-linkcard-settings-etc.php:86
+msgid "Used"
+msgstr "使用中"
+
+#: ../lib/pz-linkcard-settings-etc.php:66
+#: ../lib/pz-linkcard-settings-etc.php:86
+msgid ": "
+msgstr "："
+
+#: ../lib/pz-linkcard-settings-etc.php:70
+msgid "Image Cache Directory"
+msgstr "キャッシュ画像を保存するディレクトリ"
+
+#: ../lib/pz-linkcard-settings-etc.php:79
+msgid "Survey Settings"
+msgstr "調査モードの設定"
+
+#: ../lib/pz-linkcard-settings-etc.php:82
+msgid "Log URL"
+msgstr "ログ格納ディレクトリURL"
+
+#: ../lib/pz-linkcard-settings-etc.php:87
+#: ../lib/pz-linkcard-settings-initialize.php:35
+#: ../lib/pz-linkcard-settings-initialize.php:45
+msgid "(Unimplemented)"
+msgstr "（未実装）※設定は反映されません。"
+
+#: ../lib/pz-linkcard-settings-etc.php:87
+msgid "Clear LOG File"
+msgstr "ログファイル全削除"
+
+#: ../lib/pz-linkcard-settings-etc.php:91
+msgid "Log Directory"
+msgstr "ログ格納ディレクトリ"
+
+#: ../lib/pz-linkcard-settings-initialize.php:4
+#: ../lib/pz-linkcard-settings.php:432
+msgid "Initialize"
+msgstr "初期化"
+
+#: ../lib/pz-linkcard-settings-initialize.php:7
 msgid "Initialize Settings"
 msgstr "設定の初期化"
 
-#: ../lib/pz-linkcard-settings.php:1235
+#: ../lib/pz-linkcard-settings-initialize.php:10
 msgid "Reset the \"Settings\" to the initial value."
 msgstr "すべての設定を初期状態に戻します。"
 
-#: ../lib/pz-linkcard-settings.php:1239
-msgid "Initialize Operation"
-msgstr "プラグインの再起動"
-
-#: ../lib/pz-linkcard-settings.php:1242
-msgid "Perform initial setup."
-msgstr "プラグインの初期化処理を実行します。"
-
-#: ../lib/pz-linkcard-settings.php:1242
-msgid "\"Settings\" will not be initialized."
-msgstr "設定値は初期化しません。"
-
-#: ../lib/pz-linkcard-settings.php:1246
+#: ../lib/pz-linkcard-settings-initialize.php:14
 msgid "Initialization Exception"
 msgstr "初期化時の例外"
 
-#: ../lib/pz-linkcard-settings.php:1247
+#: ../lib/pz-linkcard-settings-initialize.php:19
 msgid "Do not initialize \"Survey Mode\" and \"Administrator Mode\"."
 msgstr "初期化時に調査モードと管理者モードを解除しません。"
 
-#: ../lib/pz-linkcard-settings.php:1253
-msgid "Notice"
-msgstr "通知"
+#: ../lib/pz-linkcard-settings-initialize.php:27
+msgid "Deletion Settings"
+msgstr "アンインストール時の設定"
 
-#: ../lib/pz-linkcard-settings.php:1254
-msgid "Do not use normally as it can be set to incapacitate."
-msgstr "動作無能に陥る設定が可能なため、通常は使用しないでください。"
+#: ../lib/pz-linkcard-settings-initialize.php:30
+msgid "Delete Settings"
+msgstr "設定の削除"
 
-#: ../lib/pz-linkcard-style.php:639
-msgid "Succeeded in saving the Stylesheet."
-msgstr "スタイルシートの生成に成功しました。"
+#: ../lib/pz-linkcard-settings-initialize.php:35
+msgid "When deleting a plugin, also delete its settings."
+msgstr "プラグインの削除する際、設定も削除します。"
 
-#: ../lib/pz-linkcard-style.php:641
-msgid "Failed to save Stylesheet."
-msgstr "スタイルシートの生成に失敗しました。"
+#: ../lib/pz-linkcard-settings-initialize.php:40
+msgid "Delete DataBase"
+msgstr "データベースの削除"
 
-#: ../lib/pz-linkcard-style.php:644
-msgid "Failed to call the Stylesheet template."
-msgstr "スタイルシートのひな型の呼び出しに失敗しました。"
+#: ../lib/pz-linkcard-settings-initialize.php:45
+msgid "When deleting a plugin, also delete it from the database."
+msgstr "プラグインの削除する際、記事内容データも削除します。"
 
-#: ../pz-linkcard.php:437
+#: ../lib/pz-linkcard-settings-letter.php:4
+msgid "Letter Settings"
+msgstr "文字の設定"
+
+#: ../lib/pz-linkcard-settings-letter.php:8
+msgid "Letter Color"
+msgstr "文字の色"
+
+#: ../lib/pz-linkcard-settings-letter.php:9
+msgid "Outline Color"
+msgstr "縁取りの色"
+
+#: ../lib/pz-linkcard-settings-letter.php:11
+msgid "Size"
+msgstr "大きさ"
+
+#: ../lib/pz-linkcard-settings-letter.php:12
+msgid "Line Height"
+msgstr "行の高さ"
+
+#: ../lib/pz-linkcard-settings-letter.php:13
+msgid "Line Limit"
+msgstr "最大行数"
+
+#: ../lib/pz-linkcard-settings-letter.php:14
+msgid "Length"
+msgstr "桁数"
+
+#: ../lib/pz-linkcard-settings-letter.php:15
+msgid "Bold"
+msgstr "太字"
+
+#: ../lib/pz-linkcard-settings-letter.php:16
+msgid "Italic"
+msgstr "斜字"
+
+#: ../lib/pz-linkcard-settings-letter.php:17
+msgid "Underline"
+msgstr "下線"
+
+#: ../lib/pz-linkcard-settings-letter.php:18
+msgid "Underline<br />On Hover"
+msgstr "ホバー時<br />の下線"
+
+#: ../lib/pz-linkcard-settings-letter.php:25
+msgid "Date"
+msgstr "日付"
+
+#: ../lib/pz-linkcard-settings-letter.php:26
+msgid "Header Text"
+msgstr "ヘッダー文字列"
+
+#: ../lib/pz-linkcard-settings-letter.php:27
+msgid "More Button"
+msgstr "続きを読むボタン"
+
+#: ../lib/pz-linkcard-settings-letter.php:29
+msgid "Added Text"
+msgstr "付加文字列"
+
+#: ../lib/pz-linkcard-settings-letter.php:30 ../pz-linkcard.php:1939
+#: ../pz-linkcard.php:1943
+msgid "Category"
+msgstr "カテゴリー"
+
+#: ../lib/pz-linkcard-settings-letter.php:69
+#: ../lib/pz-linkcard-settings-letter.php:71
+#: ../lib/pz-linkcard-settings-letter.php:79
+#: ../lib/pz-linkcard-settings-letter.php:81
+msgid "px"
+msgstr "px"
+
+#: ../lib/pz-linkcard-settings-multisite.php:4
+msgid "Multi Site Information"
+msgstr "マルチサイト情報"
+
+#: ../lib/pz-linkcard-settings-multisite.php:5
+#: ../lib/pz-linkcard-settings-multisite.php:55
+msgid "*** Cannot be changed ***"
+msgstr "＊＊＊参照のみで変更はできません＊＊＊"
+
+#: ../lib/pz-linkcard-settings-multisite.php:8
+#: ../lib/pz-linkcard-settings.php:429
+msgid "Multi Site"
+msgstr "マルチサイト"
+
+#: ../lib/pz-linkcard-settings-multisite.php:11
+msgid "Disabled"
+msgstr "無効化"
+
+#: ../lib/pz-linkcard-settings-multisite.php:12
+msgid "Enabled"
+msgstr "有効化"
+
+#: ../lib/pz-linkcard-settings-multisite.php:17
+msgid "Type"
+msgstr "種類"
+
+#: ../lib/pz-linkcard-settings-multisite.php:20
+msgid "Subdirectories"
+msgstr "サブディレクトリ型"
+
+#: ../lib/pz-linkcard-settings-multisite.php:21
+msgid "Subdomains"
+msgstr "サブドメイン型"
+
+#: ../lib/pz-linkcard-settings-multisite.php:26
+msgid "Current Blog ID"
+msgstr "現在のブログID"
+
+#: ../lib/pz-linkcard-settings-multisite.php:32
+msgid "Number of Sites"
+msgstr "サイトの数"
+
+#: ../lib/pz-linkcard-settings-multisite.php:42
+msgid "Link to SubSite"
+msgstr "サブサイトへのリンク"
+
+#: ../lib/pz-linkcard-settings-multisite.php:46
+msgid "Treat links to subsites as external links."
+msgstr "サブサイトへのリンクを外部リンクとして扱う。"
+
+#: ../lib/pz-linkcard-settings-multisite.php:54
+msgid "Site List"
+msgstr "サイトの一覧"
+
+#: ../lib/pz-linkcard-settings-multisite.php:59
+msgid "Current"
+msgstr "現在"
+
+#: ../lib/pz-linkcard-settings-multisite.php:60
+msgid "Blog ID"
+msgstr "ブログID"
+
+#: ../lib/pz-linkcard-settings-position.php:4
+msgid "Position Settings"
+msgstr "配置の設定"
+
+#: ../lib/pz-linkcard-settings-position.php:8
+msgid "Link the Whole"
+msgstr "カード全体をリンクする"
+
+#: ../lib/pz-linkcard-settings-position.php:11
+msgid "Enclose the entire card at anchor."
+msgstr ""
+"カード全体をAタグで囲って、どこをクリックしてもリンク先を開くようにします。"
+
+#: ../lib/pz-linkcard-settings-position.php:15
+msgid "Resize"
+msgstr "サイズの変更"
+
+#: ../lib/pz-linkcard-settings-position.php:20
+msgid "Adjust thumbnail and letter size according to width."
+msgstr "画面幅に合わせて文字とサムネイルの大きさを調整します。"
+
+#: ../lib/pz-linkcard-settings-position.php:30
+#: ../lib/pz-linkcard-settings-position.php:47
+msgid "Margin top"
+msgstr "上の余白"
+
+#: ../lib/pz-linkcard-settings-position.php:38
+#: ../lib/pz-linkcard-settings-position.php:79
+msgid "Margin left"
+msgstr "左の余白"
+
+#: ../lib/pz-linkcard-settings-position.php:64
+#: ../lib/pz-linkcard-settings-position.php:101
+msgid "Upper Side"
+msgstr "上側"
+
+#: ../lib/pz-linkcard-settings-position.php:65
+msgid "Above the Title"
+msgstr "タイトルの上側"
+
+#: ../lib/pz-linkcard-settings-position.php:66
+msgid "Under Side"
+msgstr "下側"
+
+#: ../lib/pz-linkcard-settings-position.php:69
+msgid "Use SiteName"
+msgstr "サイト名称を使用"
+
+#: ../lib/pz-linkcard-settings-position.php:92
+#: ../lib/pz-linkcard-settings.php:421
+msgid "Position"
+msgstr "配置"
+
+#: ../lib/pz-linkcard-settings-position.php:99
+msgid "Right Side"
+msgstr "右側"
+
+#: ../lib/pz-linkcard-settings-position.php:100
+msgid "Left Side"
+msgstr "左側"
+
+#: ../lib/pz-linkcard-settings-position.php:116
+#: ../lib/pz-linkcard-settings-position.php:136
+msgid "Height"
+msgstr "高さ"
+
+#: ../lib/pz-linkcard-settings-position.php:146
+#: ../lib/pz-linkcard-settings-position.php:167
+msgid "Margin right"
+msgstr "右の余白"
+
+#: ../lib/pz-linkcard-settings-position.php:156
+#: ../lib/pz-linkcard-settings-position.php:178
+msgid "Margin bottom"
+msgstr "下の余白"
+
+#: ../lib/pz-linkcard-settings-position.php:174
+msgid "Centering"
+msgstr "中央に寄せる"
+
+#: ../lib/pz-linkcard-settings.php:4
+msgid "It is common with setting Internal-card"
+msgstr "内部リンク用の設定が使用されます"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "1px"
+msgstr "1px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "3px"
+msgstr "3px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "5px"
+msgstr "5px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "7px"
+msgstr "7px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "9px"
+msgstr "9px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "10px"
+msgstr "10px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "11px"
+msgstr "11px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "13px"
+msgstr "13px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "14px"
+msgstr "14px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "15px"
+msgstr "15px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "17px"
+msgstr "17px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "18px"
+msgstr "18px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "19px"
+msgstr "19px"
+
+#: ../lib/pz-linkcard-settings.php:7 ../lib/pz-linkcard-settings.php:17
+#: ../lib/pz-linkcard-settings.php:35
+msgid "20px"
+msgstr "20px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "21px"
+msgstr "21px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "22px"
+msgstr "22px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "23px"
+msgstr "23px"
+
+#: ../lib/pz-linkcard-settings.php:7 ../lib/pz-linkcard-settings.php:18
+#: ../lib/pz-linkcard-settings.php:36
+msgid "24px"
+msgstr "24px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "25px"
+msgstr "25px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "26px"
+msgstr "26px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "27px"
+msgstr "27px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "28px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "29px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "30px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "31px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7 ../lib/pz-linkcard-settings.php:19
+#: ../lib/pz-linkcard-settings.php:37
+msgid "32px"
+msgstr "32px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "33px"
+msgstr "33px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "34px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "35px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "36px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "37px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "38px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "39px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7 ../lib/pz-linkcard-settings.php:20
+msgid "40px"
+msgstr "40px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "41px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "42px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "43px"
+msgstr "43px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "44px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "45px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "46px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "47px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7 ../lib/pz-linkcard-settings.php:21
+msgid "48px"
+msgstr "48px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "49px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "50px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "51px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "52px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "53px"
+msgstr "53px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "54px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "55px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7 ../lib/pz-linkcard-settings.php:22
+msgid "56px"
+msgstr "56px"
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "57px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "58px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "59px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "60px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "61px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "62px"
+msgstr ""
+
+#: ../lib/pz-linkcard-settings.php:7
+msgid "63px"
+msgstr "63px"
+
+#: ../lib/pz-linkcard-settings.php:7 ../lib/pz-linkcard-settings.php:23
+#: ../lib/pz-linkcard-settings.php:38
+msgid "64px"
+msgstr "64px"
+
+#: ../lib/pz-linkcard-settings.php:11
+msgid "Not defined"
+msgstr "設定しない"
+
+#: ../lib/pz-linkcard-settings.php:12
+msgid "0"
+msgstr "0"
+
+#: ../lib/pz-linkcard-settings.php:45
+msgid "Solid"
+msgstr "実線 (Solid)"
+
+#: ../lib/pz-linkcard-settings.php:46
+msgid "Dotted"
+msgstr "点線 (Dotted)"
+
+#: ../lib/pz-linkcard-settings.php:47
+msgid "Dashed"
+msgstr "破線 (Dashed)"
+
+#: ../lib/pz-linkcard-settings.php:48
+msgid "Double"
+msgstr "二重線 (Double)"
+
+#: ../lib/pz-linkcard-settings.php:49
+msgid "Groove"
+msgstr "立体・へこみ (Groove)"
+
+#: ../lib/pz-linkcard-settings.php:50
+msgid "Ridge"
+msgstr "立体・隆起 (Ridge)"
+
+#: ../lib/pz-linkcard-settings.php:51
+msgid "Inset"
+msgstr "立体・押されたボタンのような効果 (Inset)"
+
+#: ../lib/pz-linkcard-settings.php:52
+msgid "Outset"
+msgstr "立体・ボタンのような効果 (Outset)"
+
+#: ../lib/pz-linkcard-settings.php:58
+msgid "All Client"
+msgstr "すべての端末"
+
+#: ../lib/pz-linkcard-settings.php:59
+msgid "Other Than Mobile"
+msgstr "モバイル端末以外"
+
+#: ../lib/pz-linkcard-settings.php:174 ../pz-linkcard.php:2809
+msgid "Manager"
+msgstr "管理"
+
+#: ../lib/pz-linkcard-settings.php:176 ../pz-linkcard.php:2674
+#: ../pz-linkcard.php:2683 ../pz-linkcard.php:2802
+msgid "Pz-LinkCard Settings"
+msgstr "Pz カード設定"
+
+#: ../lib/pz-linkcard-settings.php:212
+msgid "The plugin may have been updated."
+msgstr "プラグインが更新された可能性があります。"
+
+#: ../lib/pz-linkcard-settings.php:220
+#, php-format
+msgid ""
+"Undefined key \"%s\" in Properties.<br/>It may be a glitch. Please inform "
+"the developer. (%s)"
+msgstr ""
+"設定画面に「%s」が定義されていません。<br/>これはプラグインの不具合の可能性が"
+"あります。（%s）"
+
+#: ../lib/pz-linkcard-settings.php:225
+#, php-format
+msgid ""
+"Undefined key \"%s\" in DEFAULTS.<br/>It may be a glitch. Please inform the "
+"developer. (%s)"
+msgstr ""
+"初期設定値に「%s」が定義されていません。<br/>これはプラグインの不具合の可能性"
+"があります。（%s）"
+
+#: ../lib/pz-linkcard-settings.php:246
+msgid "Could not retrieve the content to be changed."
+msgstr ""
+"変更した内容を取得できませんでした。\n"
+"※不具合の可能性がありますので基本設定に記載されている開発元に連絡ください。"
+
+#: ../lib/pz-linkcard-settings.php:257
+msgid "Succeeded in saving the settings."
+msgstr "設定を更新しました。"
+
+#: ../lib/pz-linkcard-settings.php:259
+msgid "The settings have not changed."
+msgstr "設定は変更されていません。"
+
+#: ../lib/pz-linkcard-settings.php:276
+msgid "Succeeded in initialize the settings."
+msgstr "設定を初期化しました。"
+
+#: ../lib/pz-linkcard-settings.php:278
+msgid "Failed to initialize the settings."
+msgstr "設定の初期化に失敗しました。"
+
+#: ../lib/pz-linkcard-settings.php:307
+msgid "Updated the appearance of the LinkCard."
+msgstr ""
+"スタイルシートの更新に成功しました（リンクカードの外観に設定を反映しました）"
+
+#: ../lib/pz-linkcard-settings.php:310
+msgid "Failed to save CSS-File."
+msgstr ""
+"スタイルシートの生成に失敗しました（ディレクトリの権限などを確認してくださ"
+"い）"
+
+#: ../lib/pz-linkcard-settings.php:313
+msgid "Failed to call CSS-Template."
+msgstr ""
+"スタイルシートのひな型の呼び出しに失敗しました（プラグインの不具合の可能性が"
+"あります）"
+
+#: ../lib/pz-linkcard-settings.php:332
+msgid "Popozure Logo"
+msgstr "「ぽぽづれ。」ロゴマーク"
+
+#: ../lib/pz-linkcard-settings.php:333
+msgid "Pz-LinkCard Logo"
+msgstr "「Pz-LinkCard」ロゴマーク"
+
+#: ../lib/pz-linkcard-settings.php:334
+msgid "WordPress.org Logo"
+msgstr "「WordPress」ロゴマーク"
+
+#: ../lib/pz-linkcard-settings.php:335
+msgid "Twitter Logo"
+msgstr "「旧Twitter」ロゴマーク"
+
+#: ../lib/pz-linkcard-settings.php:336
+msgid "X Logo"
+msgstr "「X（旧Twitter）」ロゴマーク"
+
+#: ../lib/pz-linkcard-settings.php:337
+msgid "Amazon Logo"
+msgstr "「Amazon」ロゴマーク"
+
+#: ../lib/pz-linkcard-settings.php:349
+msgid "Version"
+msgstr "バージョン"
+
+#: ../lib/pz-linkcard-settings.php:419
+msgid "Error"
+msgstr "エラー"
+
+#: ../lib/pz-linkcard-settings.php:422
+msgid "Display"
+msgstr "表示"
+
+#: ../lib/pz-linkcard-settings.php:423
+msgid "Letter"
+msgstr "文字"
+
+#: ../lib/pz-linkcard-settings.php:424
+msgid "External Link"
+msgstr "外部リンク"
+
+#: ../lib/pz-linkcard-settings.php:425
+msgid "Internal Link"
+msgstr "内部リンク"
+
+#: ../lib/pz-linkcard-settings.php:426
+msgid "Same Page Link"
+msgstr "同ページへのリンク"
+
+#: ../lib/pz-linkcard-settings.php:427
+msgid "Link Check"
+msgstr "リンク先の検査"
+
+#: ../lib/pz-linkcard-settings.php:428
+msgid "Editor"
+msgstr "エディター"
+
+#: ../lib/pz-linkcard-settings.php:430
+msgid "Advanced"
+msgstr "上級者向け"
+
+#: ../lib/pz-linkcard-settings.php:431
+msgid "etc."
+msgstr "その他"
+
+#: ../lib/pz-linkcard-settings.php:433
+msgid "Admin"
+msgstr "管理者"
+
+#: ../lib/pz-linkcard-settings.php:456
+msgid "Scroll to the top"
+msgstr "一番上へスクロールさせる"
+
+#: ../lib/pz-linkcard-settings.php:456
+msgid "^<br/>Top"
+msgstr "^<br/>Top"
+
+#: ../pz-linkcard.php:605
 msgid "-"
 msgstr "-"
 
-#: ../pz-linkcard.php:437
+#: ../pz-linkcard.php:605
 msgid "Incorrect URL specification."
 msgstr "URLの記述に誤りがあります。"
 
-#: ../pz-linkcard.php:866
+#: ../pz-linkcard.php:1046
 #, php-format
 msgid "%d tweet"
 msgstr "%d Tweet"
 
-#: ../pz-linkcard.php:866
+#: ../pz-linkcard.php:1046
 #, php-format
 msgid "%d tweets"
 msgstr "%d Tweets"
 
-#: ../pz-linkcard.php:868
+#: ../pz-linkcard.php:1048
 #, php-format
 msgid "%d post"
 msgstr "%d Post"
 
-#: ../pz-linkcard.php:868
+#: ../pz-linkcard.php:1048
 #, php-format
 msgid "%d posts"
 msgstr "%d Posts"
 
-#: ../pz-linkcard.php:872
+#: ../pz-linkcard.php:1052
 #, php-format
 msgid "%d share"
 msgstr "%d Share"
 
-#: ../pz-linkcard.php:872
+#: ../pz-linkcard.php:1052
 #, php-format
 msgid "%d shares"
 msgstr "%d Shares"
 
-#: ../pz-linkcard.php:875
+#: ../pz-linkcard.php:1055
 #, php-format
 msgid "%d user"
 msgstr "%d User"
 
-#: ../pz-linkcard.php:875
+#: ../pz-linkcard.php:1055
 #, php-format
 msgid "%d users"
 msgstr "%d Users"
 
-#: ../pz-linkcard.php:878
+#: ../pz-linkcard.php:1058
 #, php-format
 msgid "%d pocket"
 msgstr "%d Pocket"
 
-#: ../pz-linkcard.php:878
+#: ../pz-linkcard.php:1058
 #, php-format
 msgid "%d pockets"
 msgstr "%d Pockets"
 
-#: ../pz-linkcard.php:1625 ../pz-linkcard.php:1629
-msgid "Category"
-msgstr "カテゴリー"
+#: ../pz-linkcard.php:1117 ../pz-linkcard.php:1120 ../pz-linkcard.php:1123
+msgid "&#x1f552;&#xfe0f;"
+msgstr "&#x1f552;&#xfe0f;"
 
-#: ../pz-linkcard.php:1625 ../pz-linkcard.php:1629 ../pz-linkcard.php:1642
-#: ../pz-linkcard.php:1646
+#: ../pz-linkcard.php:1123
+msgid "&#x1F501;&#xfe0f;"
+msgstr "&#x1F501;&#xfe0f;"
+
+#: ../pz-linkcard.php:1939 ../pz-linkcard.php:1943 ../pz-linkcard.php:1956
+#: ../pz-linkcard.php:1960
 msgid "‘"
 msgstr "「"
 
-#: ../pz-linkcard.php:1625 ../pz-linkcard.php:1629 ../pz-linkcard.php:1642
-#: ../pz-linkcard.php:1646
+#: ../pz-linkcard.php:1939 ../pz-linkcard.php:1943 ../pz-linkcard.php:1956
+#: ../pz-linkcard.php:1960
 msgid "’"
 msgstr "」"
 
-#: ../pz-linkcard.php:1626 ../pz-linkcard.php:1643
+#: ../pz-linkcard.php:1940 ../pz-linkcard.php:1957
 msgid "Count"
 msgstr "件数"
 
-#: ../pz-linkcard.php:1630 ../pz-linkcard.php:1647
+#: ../pz-linkcard.php:1944 ../pz-linkcard.php:1961
 msgid "Not Found"
 msgstr "見つかりません"
 
-#: ../pz-linkcard.php:1642 ../pz-linkcard.php:1646
+#: ../pz-linkcard.php:1956 ../pz-linkcard.php:1960
 msgid "Tag"
 msgstr "タグ"
 
-#: ../pz-linkcard.php:2338
+#: ../pz-linkcard.php:2756
 msgid "Linkcard"
 msgstr "リンクカード"
 
-#: ../pz-linkcard.php:2338
+#: ../pz-linkcard.php:2756
 msgid "Make Linkcard"
 msgstr "リンクカードのショートコードを挿入する"
 
-#: ../pz-linkcard.php:2349
-msgid "Invalid URL parameter in "
-msgstr "URLパラメーターの指定が無効です→"
+#~ msgid "Outputs some events and setting information to a log file."
+#~ msgstr "いくつかのイベントや設定情報等をログファイルへ出力します。"
 
-#: ../pz-linkcard.php:2349
-msgid ""
-"You can cancel this message from <a href=\"./options-general.php?page=pz-"
-"linkcard-settings\">the setting screen</a>."
-msgstr ""
-"このメッセージの表示は<a href=\"./options-general.php?page=pz-linkcard-"
-"settings\">設定画面</a>から解除できます。"
+#~ msgid "Text to be displayed in the header."
+#~ msgstr "ヘッダーのテキスト"
 
-#: ../pz-linkcard.php:2370
-msgid "Pz LkC Cache"
-msgstr "Pz カード管理"
+#~ msgid "Text to be displayed in the More."
+#~ msgstr "続きを表示するボタンのテキスト"
 
-#: ../pz-linkcard.php:2371
-msgid "Pz LinkCard"
-msgstr "Pz カード設定"
+#~ msgid "Text to be displayed in the added."
+#~ msgstr "サイト情報への付加テキスト"
 
-#: ../pz-linkcard.php:2399
-msgid "Manager"
-msgstr "管理"
+#~ msgid "Retry Get PID"
+#~ msgstr "記事URLの再取得"
 
-#~ msgid "PHP Version"
-#~ msgstr "PHPバージョン"
+#~ msgid "Blue"
+#~ msgstr "ブルー"
+
+#~ msgid "Dark"
+#~ msgstr "ダーク"
+
+#~ msgid ""
+#~ "It is recommended that you leave the card height blank when using this "
+#~ "setting."
+#~ msgstr ""
+#~ "この設定を使用するときはカードの高さを空欄にすることをお勧めします。"
+
+#~ msgid "Bihind Title"
+#~ msgstr "タイトルの後ろ"
+
+#~ msgid "Show Card Inside-Shadow"
+#~ msgstr "カードの内側に影を表示する"
+
+#~ msgid "Show Card Shadow"
+#~ msgstr "カードの影を表示する"
+
+#~ msgid "Trim"
+#~ msgstr "文字数"
+
+#~ msgid "Border Style"
+#~ msgstr "枠線の書式"
+
+#, fuzzy
+#~| msgid "Heading"
+#~ msgid "Heading Format"
+#~ msgstr "見出し（付加情報のテキストが見出しとして表示されます）"
+
+#, fuzzy
+#~| msgid "Relative URL"
+#~ msgid "Related"
+#~ msgstr "相対指定URL"
+
+#, fuzzy
+#~| msgid "Simple"
+#~ msgid "Sample"
+#~ msgstr "シンプル"
+
+#, fuzzy
+#~| msgid "More Button Text"
+#~ msgid "More Button Format"
+#~ msgstr "続きを読むボタンの文字列"
+
+#, fuzzy
+#~| msgid "fb"
+#~ msgid "b"
+#~ msgstr "fb"
+
+#~ msgid "Text of Site Information"
+#~ msgstr "サイト情報の文字列"
+
+#~ msgid "Text after the Site Name."
+#~ msgstr "付加情報のテキスト"
+
+#~ msgid "Site Icon"
+#~ msgstr "サイトアイコン"
+
+#~ msgid "Site Icon Alt Text"
+#~ msgstr "サイトアイコンの代替テキスト"
+
+#~ msgid "<span class=\"pz-warning\">(Deprecated)</span>"
+#~ msgstr "<span class=\"pz-warning\">（非推奨）</span>"
+
+#~ msgid "Make additional information heading display"
+#~ msgstr "付加情報を見出し表示にする"
+
+#~ msgid "Show border"
+#~ msgstr "カードの枠線を表示する"
+
+#~ msgid "Text of Header Button"
+#~ msgstr "ヘッダーの文字"
+
+#~ msgid "Text of More Button"
+#~ msgstr "続きを読むボタンの文字"
+
+#~ msgid "Added Information"
+#~ msgstr "付加情報"
+
+#~ msgid "Contents"
+#~ msgstr "記事内容"
+
+#~ msgid "Turn off the anchor text underlining"
+#~ msgstr "リンク文字のアンダーラインを除去する"
+
+#~ msgid "Wrap"
+#~ msgstr "折り返し"
+
+#~ msgid "Auto"
+#~ msgstr "自動"
+
+#~ msgid "Nowrap"
+#~ msgstr "折り返しの有無"
+
+#~ msgid "If \"excerpt\" is set, give priority to it"
+#~ msgstr "「抜粋」を設定していたら、それを優先"
+
+#~ msgid "Layout"
+#~ msgstr "レイアウト"
+
+#~ msgid "Display URL"
+#~ msgstr "リンク先URLの表示"
+
+#~ msgid "display-excerpt"
+#~ msgstr "抜粋文を表示する"
+
+#~ msgid "shadow"
+#~ msgstr "影を付ける"
+
+#~ msgid "Border"
+#~ msgstr "枠線の太さ"
+
+#~ msgid "Reset Image Style"
+#~ msgstr "画像のスタイルのリセット"
+
+#~ msgid "Stylesheet URL"
+#~ msgstr "CSSファイルのURL"
+
+#~ msgid "Stylesheet File"
+#~ msgstr "CSSファイルのパス"
+
+#~ msgid "Color"
+#~ msgstr "色"
+
+#~ msgid "Use WebAPI ,if can not direct"
+#~ msgstr "直接取得できない場合、WebAPIを利用する"
+
+#~ msgid "Full size"
+#~ msgstr "元のサイズ"
+
+#~ msgid "Execerpt"
+#~ msgstr "抜粋文"
+
+#~ msgid "Pz-LinkCard Cache Manager"
+#~ msgstr "Pz リンクカード・キャッシュ管理"
+
+#~ msgid "Import File"
+#~ msgstr "ファイルからインポートする"
+
+#~ msgid "Export File"
+#~ msgstr "ファイルへエクスポートする"
+
+#~ msgid "▲"
+#~ msgstr "▲"
+
+#~ msgid "Select"
+#~ msgstr "選択してください"
+
+#~ msgid "Submit"
+#~ msgstr "適用"
+
+#~ msgid "(last )"
+#~ msgstr "(直近)"
+
+#~ msgid "Plugin Name"
+#~ msgstr "プラグイン名"
+
+#~ msgid "Plugin Abbreviation"
+#~ msgstr "プラグイン略称"
+
+#~ msgid "Plugin Path"
+#~ msgstr "プラグインのパス"
+
+#~ msgid "Author Name"
+#~ msgstr "作者の名前"
+
+#~ msgid "Author Twitter"
+#~ msgstr "作者のツイッター"
+
+#~ msgid "Hollow"
+#~ msgstr "内側に影を付ける"
+
+#~ msgid "Parameters"
+#~ msgstr "パラメータ"
+
+#~ msgid "Succeeded in saving the Stylesheet."
+#~ msgstr "スタイルシートの生成に成功しました。"
+
+#~ msgid "Pz LkC Cache"
+#~ msgstr "Pz カード管理"
+
+#~ msgid "Pz LinkCard"
+#~ msgstr "Pz カード設定"
+
+#~ msgid "Import"
+#~ msgstr "インポート"
+
+#~ msgid "Export"
+#~ msgstr "エクスポート"
+
+#~ msgid "Plugin Information"
+#~ msgstr "プラグイン情報"
+
+#~ msgid "Margin"
+#~ msgstr "余白"
+
+#~ msgid "Use HatenaBlogCard"
+#~ msgstr "はてなブログカードを使用する"
+
+#~ msgid "External links will use Always HatenaBlogCard."
+#~ msgstr "外部リンクは「はてなブログカード」を利用する。"
+
+#~ msgid "Display Restrictions"
+#~ msgstr "エラー表示の抑制"
+
+#~ msgid "Prevent errors from showing up in other admin screens."
+#~ msgstr "Pz-LinkCard以外の管理画面へエラーメッセージを表示させなくします。"
+
+#~ msgid "PHP"
+#~ msgstr "PHP"
+
+#~ msgid "DB"
+#~ msgstr "DB"
+
+#~ msgid "Cache Manager"
+#~ msgstr "DBキャッシュ管理"
+
+#~ msgid "Initialize Operation"
+#~ msgstr "プラグインの再起動"
+
+#~ msgid "Notice"
+#~ msgstr "通知"
 
 #~ msgid "Simplified display if header is not processed."
 #~ msgstr "ヘッダー処理がされなかった場合、簡易表示する。"
@@ -2052,12 +2891,6 @@ msgstr "管理"
 #~ msgstr ""
 #~ "アクセスされたURLの末尾が「/amp」「/amp/」「/?amp=1」の場合、簡易表示に切"
 #~ "り替える。"
-
-#~ msgid "Run Log"
-#~ msgstr "実行ログ"
-
-#~ msgid "WP-Cron Settings"
-#~ msgstr "WordPress自動実行（WP-Cron）の設定"
 
 #~ msgid "Always get the latest from the excerpt"
 #~ msgstr "抜粋文が設定されている投稿はそちらを優先する"
@@ -2119,17 +2952,11 @@ msgstr "管理"
 #~ msgid "Multi Site Settings"
 #~ msgstr "マルチサイトの設定"
 
-#~ msgid "(Not recommended)"
-#~ msgstr "（非推奨）"
-
 #~ msgid "Display Link to Author Page"
 #~ msgstr "プラグイン名を表示する"
 
 #~ msgid "Site information"
 #~ msgstr "サイト情報"
-
-#~ msgid "More button"
-#~ msgstr "続きを読むボタン"
 
 #~ msgid "Added information"
 #~ msgstr "付加情報"
@@ -2139,9 +2966,6 @@ msgstr "管理"
 
 #~ msgid "Site name"
 #~ msgstr "サイト名称"
-
-#~ msgid "Update date"
-#~ msgstr "更新日"
 
 #~ msgid "Renew Thumbnail"
 #~ msgstr "サムネイルを再取得する"
@@ -2292,9 +3116,6 @@ msgstr "管理"
 #~ msgid "CSS file"
 #~ msgstr "CSSファイル名"
 
-#~ msgid "CSS URL"
-#~ msgstr "CSSファイルのURL"
-
 #~ msgid ""
 #~ "%DOMAIN% replace to domain name (ex. poporon.poponet.jp )<br>%DOMAIN_URL% "
 #~ "replace to domain URL (ex. http://poporon.poponet.jp )"
@@ -2353,12 +3174,6 @@ msgstr "管理"
 #~ "setting."
 #~ msgstr "有効にする取得APIによっては表示が遅くなる場合があります。"
 
-#~ msgid "Style"
-#~ msgstr "表示設定"
-
-#~ msgid "Debug"
-#~ msgstr "詳しい人用（Debug）"
-
 #~ msgid "Corresponds to simple display for Google AMP."
 #~ msgstr ""
 #~ "アクセスされたURLの末尾が「/amp」「/amp/」「/?amp=1」の場合、簡易表示に切"
@@ -2415,17 +3230,11 @@ msgstr "管理"
 #~ msgid "Plugin-link"
 #~ msgstr "プラグイン名"
 
-#~ msgid "Direct & Use WebAPI"
-#~ msgstr "直接取得できない場合、WebAPI利用"
-
 #~ msgid "It was no longer able to tweet the number of acquisition of Twitter."
 #~ msgstr ""
 #~ "取得APIの提供終了に伴い、ツイッターのツイート数は更新されなくなりました。"
 #~ "<br>最後に取得したカウントを表示することは出来ますが変動しなくなるため、ツ"
 #~ "イッターのシェア数表示のチェックを外すことを推奨します。"
-
-#~ msgid "Trim"
-#~ msgstr "文字数"
 
 #, fuzzy
 #~ msgid "New window/tab"
@@ -2439,9 +3248,6 @@ msgstr "管理"
 
 #~ msgid "distinguish between uppercase and lowercase letters"
 #~ msgstr "大文字と小文字は区別されます"
-
-#~ msgid "This page"
-#~ msgstr "同ページへのリンク"
 
 #~ msgid "Refresh"
 #~ msgstr "再取得"
@@ -2495,10 +3301,6 @@ msgstr "管理"
 #~ msgstr "作成にかかった時間を表示する"
 
 #, fuzzy
-#~ msgid "(This Site)"
-#~ msgstr "（このサイト内）"
-
-#, fuzzy
 #~ msgid "(This Page)"
 #~ msgstr "（このページ）"
 
@@ -2510,29 +3312,11 @@ msgstr "管理"
 #~ msgid "Common"
 #~ msgstr "共通"
 
-#~ msgid "Shadow (thumbnail)"
-#~ msgstr "サムネイル画像に影を付ける"
-
-#~ msgid "2px"
-#~ msgstr "2 ピクセル（普通）"
-
-#~ msgid "3px"
-#~ msgstr "3 ピクセル（やや太め）"
-
-#~ msgid "6px"
-#~ msgstr "6 ピクセル（極太）"
-
 #~ msgid "Display thumbnail"
 #~ msgstr "サムネイル画像"
 
 #~ msgid "Number of seconds to keep cache"
 #~ msgstr "取得したタイトルと概要を保管しておく秒数"
 
-#~ msgid "(Unimplemented)"
-#~ msgstr "（未実装）※設定は反映されません。"
-
 #~ msgid "After the invalidation of the plug-in , please activate again"
 #~ msgstr "→プラグインの無効化を行った後、再度有効化してください"
-
-#~ msgid "(External site)"
-#~ msgstr "（外部リンク）"

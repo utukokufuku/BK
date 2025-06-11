@@ -1,11 +1,11 @@
 === Search Exclude ===
 Contributors: quadlayers, pronskiy, williamdodson, stevelock
 Donate link: https://quadlayers.com/
-Tags: admin, plugin, search, search exclude
+Tags: search exclude, search, wordpress search, exclude post, exclude page
 Requires at least: 4.7
 Requires PHP: 5.6
-Tested up to: 6.3
-Stable tag: 2.0.4
+Tested up to: 6.8
+Stable tag: 2.5.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -98,17 +98,114 @@ function filterForProducts($exclude, $query)
 
 == Changelog ==
 
+= 2.5.2 =
+* fix: update dependencies 
+
+= 2.5.1 =
+* fix: update dependencies 
+
+= 2.5.0 =
+* fix: security issues
+
+= 2.4.9 =
+* fix: load plugin textdomain
+
+= 2.4.8 =
+* WordPress compatibility
+
+= 2.4.7 =
+* fix: terms exclusion 
+* fix: Content Control plugin compatibility
+
+= 2.4.6 =
+* fix: update readme.txt
+
+= 2.4.5 =
+* fix: search exclude in ajax
+
+= 2.4.4 =
+* fix: load plugin textdomain
+
+= 2.4.3 =
+* fix: search exclude documentation url
+
+= 2.4.2 =
+* fix: update jetpack autoload
+
+= 2.4.1 =
+* fix: php errors
+
+= 2.4.0 =
+* fix: implement jetpack autoload
+
+= 2.3.0 =
+* fix: php errors
+* fix: improve allowed screen logic
+* fix: scripts in custom post types
+* fix: advanced custom fields compatibility
+
+= 2.2.0 =
+* fix: php errors
+
+= 2.1.9 =
+* fix: php errors
+* fix: compatibility with classic editor
+
+= 2.1.8 =
+* WordPress 6.7 compatibility
+
+= 2.1.7 =
+* fix: WordPress 6.1.3 compatibility
+* fix: big queries 
+* Remove notification 
+
+= 2.1.6 =
+* Refactor update 
+
+= 2.1.5 =
+* Refactor
+
+= 2.1.4 =
+* WordPress compatibility
+
+= 2.1.3 =
+* WordPress compatibility
+
+= 2.1.2 =
+* WordPress compatibility
+
+= 2.1.1 =
+* Packages update
+
+= 2.1.0 =
+* WordPress compatibility
+
+= 2.0.9 =
+* fix: PHP errors
+
+= 2.0.8 =
+* Translation strings
+
+= 2.0.7 =
+* WordPress compatibility
+
+= 2.0.6 =
+* WordPress compatibility
+
+= 2.0.5 =
+* Update portfolio link
+
 = 2.0.4 =
 * WordPress compatibility
 
 = 2.0.3 =
-* Fix strings translations
+* fix: strings translations
 
 = 2.0.2 =
-* Fix strings translations
+* fix: strings translations
 
 = 2.0.1 =
-* Fix strings translations
+* fix: strings translations
 
 = 2.0.0 =
 * i18n implemented
@@ -122,14 +219,14 @@ function filterForProducts($exclude, $query)
 * Author update.
 
 = 1.3.0 =
-* Fix and rework bulk edit: The `Bulk actions` dropdown now offers hide/show actions.
+* fix: and rework bulk edit: The `Bulk actions` dropdown now offers hide/show actions.
 
 = 1.2.7 =
 * This is a security release. All users are encouraged to upgrade.
-* Fix possible XSS vulnerability.
+* fix: possible XSS vulnerability.
 
 = 1.2.6 =
-* Fix compatibility with WordPress 5.5
+* fix: compatibility with WordPress 5.5
 
 = 1.2.5 =
 * Security release. More protection added.
