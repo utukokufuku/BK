@@ -17,6 +17,11 @@
 		</xsl:variable>
 		<html xmlns="http://www.w3.org/1999/xhtml">
 			<head>
+<style>
+  .adsbygoogle:empty {
+    display: none;
+  }
+</style>
 				<title>
 					<xsl:choose>
 						<xsl:when test="$fileType='Sitemap' or $fileType='RSS'">サイトマップ</xsl:when>
